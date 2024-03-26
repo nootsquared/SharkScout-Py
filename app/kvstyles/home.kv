@@ -1,0 +1,250 @@
+# home page scouting screen
+<MainScreen>:
+    name: "home"
+    canvas.before:
+        Color:
+            rgba: 32/255, 32/255, 32/255, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    MDScrollView:
+        do_scroll_x: False
+        do_scroll_y: True
+        MDBoxLayout:
+            orientation: 'vertical'
+            adaptive_height: True
+            spacing: 20
+            halign: "center"
+            valign: "center"
+
+            MDLabel:
+                adaptive_size: True
+                text: "Choose a Form"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "20sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                padding: [0, 60, 0, 0]
+
+            MDDivider:
+                orientation: "horizontal"
+                height: "1"
+                width: "200"
+                size_hint_y: None
+                size_hint_x: None
+                color: (64/255, 64/255, 64/255, .5)
+                pos_hint: {'center_x': 0.5}
+
+            MDButton:
+                style: "outlined"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.7}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "56dp"
+                width: "200dp"
+                radius: [5, 5, 5, 5]
+                theme_line_color: "Custom"
+                line_color: [2/255, 136/255, 209/255, 1]
+                theme_bg_color: "Custom"
+                md_bg_color: [0.95, 0.95, 0.95, .05]
+                padding: [30, 20, 30, 20]
+                on_release: root.manager.current = 'match'
+
+                MDButtonText:
+                    text: "MATCH SCOUTING"
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    theme_text_color: "Custom"
+                    text_color: [1, 1, 1, 1]
+                    theme_font_size: "Custom"
+                    theme_font_name: "Custom"
+                    font_name: "Roboto"
+                    theme_font_size: "Custom"
+                    font_size: "16sp"
+                    halign: 'center'
+                    valign: 'center'
+                    
+
+            MDButton:
+                style: "outlined"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.61}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "56dp"
+                width: "200dp"
+                radius: [5, 5, 5, 5]
+                theme_line_color: "Custom"
+                line_color: [2/255, 136/255, 209/255, 1]
+                theme_bg_color: "Custom"
+                md_bg_color: [0.95, 0.95, 0.95, .05]
+                # padding: [30, 20, 30, 20]
+                on_release: root.manager.current = 'pits'
+
+                MDButtonText:
+                    text: "PIT SCOUTING"
+                    theme_text_color: "Custom"
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    text_color: [1, 1, 1, 1] 
+                    theme_font_size: "Custom"
+                    theme_font_name: "Custom"
+                    font_name: "Roboto"
+                    theme_font_size: "Custom"
+                    font_size: "16sp"
+                    halign: 'center'
+                    valign: 'center'
+                    
+
+            MDLabel:
+                adaptive_size: True
+                padding: [0, 30,0, 0]
+                text: "Sign In"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "20sp"
+                pos_hint: {'center_x': .5, 'center_y': .52}
+
+            MDDivider:
+                orientation: "horizontal"
+                height: "1"
+                width: "200"
+                size_hint_y: None
+                size_hint_x: None
+                color: (64/255, 64/255, 64/255, .5)
+                pos_hint: {'center_x': 0.5}
+                    
+            MDTextField:
+                id: name_input
+                mode: "outlined"
+                size_hint_x: None
+                width: "200dp"
+                theme_line_color: "Custom"
+                line_color_normal: [2/255, 136/255, 209/255, 1]
+                line_color_focus: [2/255, 136/255, 209/255, 1]
+                theme_font_name: "Custom"
+                font_name: "Roboto"
+                theme_text_color: "Custom"
+                text_color_normal: [1, 1, 1, 1]
+                text_color_focus: [1, 1, 1, 1]
+                pos_hint: {'center_x': 0.5, 'center_y': 0.43}
+
+                MDTextFieldHintText:
+                    text: "Name"
+                    text_color_normal: [1, 1, 1, .5]
+                    text_color_focus: [1, 1, 1, .5]
+                MDTextFieldLeadingIcon:
+                    icon: "account"
+
+            MDButton:
+                style: "outlined"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.61}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "35dp"
+                width: "100dp"
+                radius: [5, 5, 5, 5]
+                theme_line_color: "Custom"
+                line_color: [120/255, 204/255, 51/255, 1]
+                # padding: [30, 20, 30, 20]
+                on_release: root.submit_name() 
+                theme_bg_color: "Custom"
+                md_bg_color: [0.95, 0.95, 0.95, .05]
+
+                MDButtonText:
+                    text: "SUBMIT"
+                    theme_text_color: "Custom"
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    text_color: [1, 1, 1, .5] 
+                    theme_font_size: "Custom"
+                    theme_font_name: "Custom"
+                    font_name: "Roboto"
+                    theme_font_size: "Custom"
+                    font_size: "16sp"
+                    halign: 'center'
+                    valign: 'center'
+
+            MDDivider:
+                orientation: "horizontal"
+                height: "1"
+                width: "200"
+                size_hint_y: None
+                size_hint_x: None
+                color: (64/255, 64/255, 64/255, .5)
+                pos_hint: {'center_x': 0.5}
+
+            MDLabel:
+                adaptive_size: True
+                text: "Current Data"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]  # White text color
+                theme_font_size: "Custom"
+                font_size: "20sp"
+                pos_hint: {'center_x': .5, 'center_y': .264}
+                padding: [0, 30,0, 0]
+
+            MDLabel:
+                adaptive_size: True
+                text: "Current Scouter: (" + root.current_scouter + ")"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]  # White text color
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .195}
+
+            MDLabel:
+                adaptive_size: True
+                text: "Current Competition: (District #1)"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]  # White text color
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .16}
+                padding: [0, 0,0, 40]
+
+            MDDivider:
+                orientation: "horizontal"
+                height: "1"
+                width: "200"
+                size_hint_y: None
+                size_hint_x: None
+                color: (64/255, 64/255, 64/255, .5)
+                pos_hint: {'center_x': 0.5}
+
+            MDButton:
+                style: "outlined"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.61}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "56dp"
+                width: "200dp"
+                radius: [5, 5, 5, 5]
+                theme_line_color: "Custom"
+                line_color: [222/255, 39/255, 33/255, 1]
+                theme_bg_color: "Custom"
+                md_bg_color: [0.95, 0.95, 0.95, .05] 
+                # padding: [30, 20, 30, 20]
+                on_release: root.manager.current = 'pits'
+
+                MDButtonText:
+                    text: "ADMIN PANEL"
+                    theme_text_color: "Custom"
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    text_color: [1, 1, 1, 1] 
+                    theme_font_size: "Custom"
+                    theme_font_name: "Custom"
+                    font_name: "Roboto"
+                    theme_font_size: "Custom"
+                    font_size: "16sp"
+                    halign: 'center'
+                    valign: 'center'

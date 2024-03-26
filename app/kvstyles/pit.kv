@@ -1,0 +1,674 @@
+# pit scouting screen
+<PitScreen>:
+    name: "pits"
+    canvas.before:
+        Color:
+            rgba: 32/255, 32/255, 32/255, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    MDScrollView:
+        MDBoxLayout:
+            adaptive_height: True
+            spacing: 20
+            halign: "center"
+            valign: "center"
+            orientation: 'vertical'
+
+            MDLabel:
+                adaptive_size: True
+                text: "Pit Scouting"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "25sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                padding: [0, 30, 0, 0]
+
+            MDButton:
+                style: "outlined"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.7}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "46dp"
+                width: "100dp"
+                radius: [5, 5, 5, 5]
+                theme_line_color: "Custom"
+                line_color: [2/255, 136/255, 209/255, 1]
+                theme_bg_color: "Custom"
+                md_bg_color: [0.95, 0.95, 0.95, .05]
+                padding: [30, 20, 30, 20]
+                on_release: root.manager.current = 'home'
+
+                MDButtonText:
+                    text: "<-- BACK"
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    theme_text_color: "Custom"
+                    text_color: [1, 1, 1, 1]
+                    theme_font_size: "Custom"
+                    theme_font_name: "Custom"
+                    font_name: "Roboto"
+                    theme_font_size: "Custom"
+                    font_size: "16sp"
+                    halign: 'center'
+                    valign: 'center'
+
+            MDDivider:
+                orientation: "horizontal"
+                height: "1"
+                width: "200"
+                size_hint_y: None
+                size_hint_x: None
+                color: (64/255, 64/255, 64/255, .5)
+                pos_hint: {'center_x': 0.5}
+                padding: [0, 20, 0, 0]
+
+            MDLabel:
+                adaptive_size: True
+                text: "Robot Info"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "20sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+
+            MDLabel:
+                adaptive_size: True
+                text: "Team Number: "
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                text_color: [1, 1, 1, 1]
+                theme_text_color: "Custom"
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+
+            MDTextField:
+                mode: "outlined"
+                size_hint_x: None
+                width: "200dp"
+                theme_line_color: "Custom"
+                line_color_normal: [2/255, 136/255, 209/255, 1]
+                line_color_focus: [2/255, 136/255, 209/255, 1]
+                theme_font_name: "Custom"
+                font_name: "Roboto"
+                theme_text_color: "Custom"
+                text_color_normal: [1, 1, 1, 1]
+                text_color_focus: [1, 1, 1, 1]
+                pos_hint: {'center_x': 0.5, 'center_y': 0.43}
+                #on_text: app.root.get_screen('match').update_menu_items(self.text, self)
+
+                MDTextFieldHintText:
+                    text: "e.g. 226"
+                    text_color_normal: [1, 1, 1, .5]
+                    text_color_focus: [1, 1, 1, .5]
+
+            MDLabel:
+                adaptive_size: True
+                text: "Drive Train Type"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                text_color: [1, 1, 1, 1]
+                theme_text_color: "Custom"
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+
+            MDSegmentedButton:
+                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                size_hint: None, None
+                theme_bg_color: "Custom"
+                size: self.minimum_size
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "Swerve"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+                        
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "Tank"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "Other"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+            
+            MDLabel:
+                adaptive_size: True
+                text: "Can the robot fit under the stage?"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                text_color: [1, 1, 1, 1]
+                theme_text_color: "Custom"
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+
+            MDSegmentedButton:
+                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                size_hint: None, None
+                theme_bg_color: "Custom"
+                size: self.minimum_size
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [120/255, 204/255, 51/255, 1]
+                    selected_color: [120/255, 204/255, 51/255, 1]
+                    radius: [5, 0, 0, 5]
+                    MDSegmentButtonLabel:
+                        text: "Yes"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+                        
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [222/255, 39/255, 33/255, 1]
+                    selected_color: [222/255, 39/255, 33/255, 1]
+                    radius: [0, 5, 5, 0]
+
+                    MDSegmentButtonLabel:
+                        text: "No"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+            
+            MDLabel:
+                adaptive_size: True
+                text: "Intake Description"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                text_color: [1, 1, 1, 1]
+                theme_text_color: "Custom"
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+
+            MDSegmentedButton:
+                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                size_hint: None, None
+                theme_bg_color: "Custom"
+                size: self.minimum_size
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "Over The Bumper"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+                        
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "Under The Bumper"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "None"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+            
+            MDDivider:
+                orientation: "horizontal"
+                height: "1"
+                width: "200"
+                size_hint_y: None
+                size_hint_x: None
+                color: (64/255, 64/255, 64/255, .5)
+                pos_hint: {'center_x': 0.5}
+                padding: [0, 20, 0, 0]
+
+            MDLabel:
+                adaptive_size: True
+                text: "Scoring"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "20sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+            
+            MDLabel:
+                adaptive_size: True
+                text: "Auton"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "18sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+
+            MDLabel:
+                adaptive_size: True
+                text: "Preferred scoring position?"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+
+            MDSegmentedButton:
+                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                size_hint: None, None
+                theme_bg_color: "Custom"
+                size: self.minimum_size
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "Right of Speaker"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+                        
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "Left of Speaker"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "Center of Speaker"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+                
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "AMP"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "None"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+
+            MDLabel:
+                adaptive_size: True
+                text: "Tele-Op"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "18sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+
+            MDLabel:
+                adaptive_size: True
+                text: "Preferred shooting location"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+
+            MDTextField:
+                mode: "outlined"
+                size_hint_x: None
+                width: "400dp"
+                theme_line_color: "Custom"
+                line_color_normal: [2/255, 136/255, 209/255, 1]
+                line_color_focus: [2/255, 136/255, 209/255, 1]
+                theme_font_name: "Custom"
+                font_name: "Roboto"
+                theme_text_color: "Custom"
+                text_color_normal: [1, 1, 1, 1]
+                text_color_focus: [1, 1, 1, 1]
+                pos_hint: {'center_x': 0.5, 'center_y': 0.43}
+                #on_text: app.root.get_screen('match').update_menu_items(self.text, self)
+
+                MDTextFieldHintText:
+                    text: "Near the subwoofer, near the stage(s)..."
+                    text_color_normal: [1, 1, 1, .5]
+                    text_color_focus: [1, 1, 1, .5]
+            
+            MDLabel:
+                adaptive_size: True
+                text: "Endgame"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "18sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+
+            MDLabel:
+                adaptive_size: True
+                text: "Hang or Park"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+
+            MDSegmentedButton:
+                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                size_hint: None, None
+                theme_bg_color: "Custom"
+                size: self.minimum_size
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [120/255, 204/255, 51/255, 1]
+                    selected_color: [120/255, 204/255, 51/255, 1]
+                    radius: [5, 0, 0, 5]
+                    MDSegmentButtonLabel:
+                        text: "Yes"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+                        
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [222/255, 39/255, 33/255, 1]
+                    selected_color: [222/255, 39/255, 33/255, 1]
+                    radius: [0, 5, 5, 0]
+
+                    MDSegmentButtonLabel:
+                        text: "No"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+
+            MDLabel:
+                adaptive_size: True
+                text: "Buddy Climb"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+
+            MDSegmentedButton:
+                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                size_hint: None, None
+                theme_bg_color: "Custom"
+                size: self.minimum_size
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [120/255, 204/255, 51/255, 1]
+                    selected_color: [120/255, 204/255, 51/255, 1]
+                    radius: [5, 0, 0, 5]
+                    MDSegmentButtonLabel:
+                        text: "Yes"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+                        
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [222/255, 39/255, 33/255, 1]
+                    selected_color: [222/255, 39/255, 33/255, 1]
+                    radius: [0, 5, 5, 0]
+
+                    MDSegmentButtonLabel:
+                        text: "No"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+
+            MDLabel:
+                adaptive_size: True
+                text: "Score via trap?"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+
+            MDSegmentedButton:
+                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                size_hint: None, None
+                theme_bg_color: "Custom"
+                size: self.minimum_size
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [120/255, 204/255, 51/255, 1]
+                    selected_color: [120/255, 204/255, 51/255, 1]
+                    radius: [5, 0, 0, 5]
+                    MDSegmentButtonLabel:
+                        text: "Yes"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+                        
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [222/255, 39/255, 33/255, 1]
+                    selected_color: [222/255, 39/255, 33/255, 1]
+                    radius: [0, 5, 5, 0]
+
+                    MDSegmentButtonLabel:
+                        text: "No"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+
+            MDLabel:
+                adaptive_size: True
+                text: "Can the robot go under the stage?"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+
+            MDSegmentedButton:
+                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                size_hint: None, None
+                theme_bg_color: "Custom"
+                size: self.minimum_size
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [120/255, 204/255, 51/255, 1]
+                    selected_color: [120/255, 204/255, 51/255, 1]
+                    radius: [5, 0, 0, 5]
+                    MDSegmentButtonLabel:
+                        text: "Yes"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+                        
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [222/255, 39/255, 33/255, 1]
+                    selected_color: [222/255, 39/255, 33/255, 1]
+                    radius: [0, 5, 5, 0]
+
+                    MDSegmentButtonLabel:
+                        text: "No"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+
+            MDLabel:
+                adaptive_size: True
+                text: "Additional Comments"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "15sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                #padding: [0, 30, 0, 0]
+
+
+            MDTextField:
+                mode: "outlined"
+                size_hint_x: None
+                width: "300dp"
+                theme_line_color: "Custom"
+                line_color_normal: [2/255, 136/255, 209/255, 1]
+                line_color_focus: [2/255, 136/255, 209/255, 1]
+                theme_font_name: "Custom"
+                font_name: "Roboto"
+                theme_text_color: "Custom"
+                text_color_normal: [1, 1, 1, 1]
+                text_color_focus: [1, 1, 1, 1]
+                pos_hint: {'center_x': 0.5, 'center_y': 0.43}
+
+                MDTextFieldHintText:
+                    text: "Any important observations"
+                    text_color_normal: [1, 1, 1, .5]
+                    text_color_focus: [1, 1, 1, .5]
+
+            MDDivider:
+                orientation: "horizontal"
+                height: "1"
+                width: "200"
+                size_hint_y: None
+                size_hint_x: None
+                color: (64/255, 64/255, 64/255, .5)
+                pos_hint: {'center_x': 0.5}
+                padding: [0, 20, 0, 0]
+
+            MDButton:
+                style: "outlined"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.61}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "56dp"
+                width: "250dp"
+                radius: [5, 5, 5, 5]
+                theme_line_color: "Custom"
+                line_color: [120/255, 204/255, 51/255, 1]
+                theme_bg_color: "Custom"
+                md_bg_color: [0.95, 0.95, 0.95, .05]
+                padding: [0, 0, 0, 20]
+                on_release: root.manager.current = 'pits'
+
+                MDButtonText:
+                    text: "SUBMIT TO SERVER"
+                    theme_text_color: "Custom"
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    text_color: [1, 1, 1, 1] 
+                    theme_font_size: "Custom"
+                    theme_font_name: "Custom"
+                    font_name: "Roboto"
+                    theme_font_size: "Custom"
+                    font_size: "16sp"
+                    halign: 'center'
+                    valign: 'center'
+
+
+            
+
+            
+            
