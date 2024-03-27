@@ -16,6 +16,188 @@ WindowManager:
         Rectangle:
             pos: self.pos
             size: self.size
+
+    MDScrollView:
+        MDBoxLayout:
+            orientation: 'vertical'
+            adaptive_height: True
+            spacing: 20
+            halign: "center"
+            valign: "center"
+            text_color: [1, 1, 1, 1]
+            theme_text_color: "Custom"
+
+            MDLabel:
+                adaptive_size: True
+                text: "ADMIN SCREEN"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "25sp"
+                pos_hint: {'center_x': .5, 'center_y': .8}
+                padding: [0, 30, 0, 0]
+
+            MDButton:
+                style: "outlined"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.7}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "46dp"
+                width: "100dp"
+                radius: [5, 5, 5, 5]
+                theme_line_color: "Custom"
+                line_color: [2/255, 136/255, 209/255, 1]
+                theme_bg_color: "Custom"
+                md_bg_color: [0.95, 0.95, 0.95, .05]
+                padding: [30, 20, 30, 20]
+                on_release: root.manager.current = 'home'
+
+                MDButtonText:
+                    text: "<-- BACK"
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    theme_text_color: "Custom"
+                    text_color: [1, 1, 1, 1]
+                    theme_font_size: "Custom"
+                    theme_font_name: "Custom"
+                    font_name: "Roboto"
+                    theme_font_size: "Custom"
+                    font_size: "16sp"
+                    halign: 'center'
+                    valign: 'center'
+
+            MDDivider:
+                orientation: "horizontal"
+                height: "1"
+                width: "200"
+                size_hint_y: None
+                size_hint_x: None
+                color: (64/255, 64/255, 64/255, .5)
+                pos_hint: {'center_x': 0.5}
+                padding: [0, 20, 0, 0]
+
+            MDLabel:
+                adaptive_size: True
+                padding: [0, 30,0, 0]
+                text: "Update TBA Key"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "20sp"
+                pos_hint: {'center_x': .5, 'center_y': .52}
+
+            MDDivider:
+                orientation: "horizontal"
+                height: "1"
+                width: "200"
+                size_hint_y: None
+                size_hint_x: None
+                color: (64/255, 64/255, 64/255, .5)
+                pos_hint: {'center_x': 0.5}
+                    
+            MDTextField:
+                mode: "outlined"
+                size_hint_x: None
+                width: "200dp"
+                theme_line_color: "Custom"
+                line_color_normal: [2/255, 136/255, 209/255, 1]
+                line_color_focus: [2/255, 136/255, 209/255, 1]
+                theme_font_name: "Custom"
+                font_name: "Roboto"
+                theme_text_color: "Custom"
+                text_color_normal: [1, 1, 1, 1]
+                text_color_focus: [1, 1, 1, 1]
+                pos_hint: {'center_x': 0.5, 'center_y': 0.43}
+
+                MDTextFieldHintText:
+                    text: "TBA Key"
+                    text_color_normal: [1, 1, 1, .5]
+                    text_color_focus: [1, 1, 1, .5]
+
+            MDButton:
+                style: "outlined"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.61}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "35dp"
+                width: "100dp"
+                radius: [5, 5, 5, 5]
+                theme_line_color: "Custom"
+                line_color: [120/255, 204/255, 51/255, 1]
+                # padding: [30, 20, 30, 20] 
+                theme_bg_color: "Custom"
+                md_bg_color: [0.95, 0.95, 0.95, .05]
+
+                MDButtonText:
+                    text: "SUBMIT"
+                    theme_text_color: "Custom"
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    text_color: [1, 1, 1, .5] 
+                    theme_font_size: "Custom"
+                    theme_font_name: "Custom"
+                    font_name: "Roboto"
+                    theme_font_size: "Custom"
+                    font_size: "16sp"
+                    halign: 'center'
+                    valign: 'center'
+
+            MDLabel:
+                adaptive_size: True
+                padding: [0, 30,0, 0]
+                text: "App Mode Selection"
+                theme_font_name: "Custom"
+                font_name: "Roboto1"
+                theme_text_color: "Custom"
+                text_color: [1, 1, 1, 1]
+                theme_font_size: "Custom"
+                font_size: "20sp"
+                pos_hint: {'center_x': .5, 'center_y': .52}
+
+            MDSegmentedButton:
+                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                size_hint: None, None
+                theme_bg_color: "Custom"
+                size: self.minimum_size
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "QR Code"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+                        
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "Bluetooth"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+
+                MDSegmentedButtonItem:
+                    theme_line_color: "Custom"
+                    line_color: [2/255, 136/255, 209/255, 1]
+                    selected_color: [2/255, 136/255, 209/255, 1]
+                    radius: [5, 5, 5, 5]
+                    MDSegmentButtonLabel:
+                        text: "Both"
+                        theme_text_color: "Custom"
+                        text_color: [1, 1, 1, 1]
+                        theme_font_size: "Custom"
+                        font_size: "16sp"
+
 # home page scouting screen
 <MainScreen>:
     name: "home"
@@ -252,7 +434,7 @@ WindowManager:
                 theme_bg_color: "Custom"
                 md_bg_color: [0.95, 0.95, 0.95, .05] 
                 # padding: [30, 20, 30, 20]
-                on_release: root.manager.current = 'pits'
+                on_release: root.manager.current = 'admin'
 
                 MDButtonText:
                     text: "ADMIN PANEL"
@@ -277,6 +459,8 @@ WindowManager:
             size: self.size
 
     MDScrollView:
+        do_scroll_x: False
+        do_scroll_y: True
         MDBoxLayout:
             orientation: 'vertical'
             adaptive_height: True
@@ -1367,6 +1551,8 @@ WindowManager:
             size: self.size
 
     MDScrollView:
+        do_scroll_x: False
+        do_scroll_y: True
         MDBoxLayout:
             adaptive_height: True
             spacing: 20
