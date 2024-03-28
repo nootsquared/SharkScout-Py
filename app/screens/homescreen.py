@@ -2,7 +2,8 @@ from kivy.properties import StringProperty
 from kivy.uix.screenmanager import Screen
 
 class MainScreen(Screen):
-    current_scouter = StringProperty("Pranav M")
+    current_scouter = StringProperty("Pranav_M")
+
     def change_scouter(self, new_scouter):
         self.current_scouter = new_scouter
 
