@@ -164,6 +164,7 @@
                 #padding: [0, 30, 0, 0]
 
             MDSegmentedButton:
+                id: starting_place
                 pos_hint: {'center_x': 0.5, 'center_y': 0.5}
                 size_hint: None, None
                 theme_bg_color: "Custom"
@@ -174,6 +175,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.starting_place = "AMP"
                     MDSegmentButtonLabel:
                         text: "AMP"
                         theme_text_color: "Custom"
@@ -186,6 +188,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.starting_place = "Center"
                     MDSegmentButtonLabel:
                         text: "Center"
                         theme_text_color: "Custom"
@@ -198,6 +201,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.starting_place = "Source"
                     MDSegmentButtonLabel:
                         text: "Source"
                         theme_text_color: "Custom"
@@ -219,6 +223,7 @@
                 #padding: [0, 30, 0, 0]
 
             MDSegmentedButton:
+                id: note_pickup
                 pos_hint: {'center_x': 0.5, 'center_y': 0.5}
                 size_hint: None, None
                 theme_bg_color: "Custom"
@@ -229,6 +234,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.note_pickup = "None"
                     MDSegmentButtonLabel:
                         text: "None"
                         theme_text_color: "Custom"
@@ -241,6 +247,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.note_pickup = "Spike"
                     MDSegmentButtonLabel:
                         text: "Spike"
                         theme_text_color: "Custom"
@@ -253,6 +260,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.note_pickup = "Ctr_Line"
                     MDSegmentButtonLabel:
                         text: "Ctr Line"
                         theme_text_color: "Custom"
@@ -265,6 +273,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.note_pickup = "Both"
                     MDSegmentButtonLabel:
                         text: "Both"
                         theme_text_color: "Custom"
@@ -286,6 +295,7 @@
                 pos_hint: {'center_x': .5, 'center_y': .8}
 
             MDSegmentedButton:
+                id: left_starting_zone
                 pos_hint: {'center_x': 0.5, 'center_y': 0.5}
                 size_hint: None, None
                 theme_bg_color: "Custom"
@@ -296,6 +306,7 @@
                     line_color: [120/255, 204/255, 51/255, 1]
                     selected_color: [120/255, 204/255, 51/255, 1]
                     radius: [5, 0, 0, 5]
+                    on_release: root.left_starting_zone = "Yes"
                     MDSegmentButtonLabel:
                         text: "Yes"
                         theme_text_color: "Custom"
@@ -308,7 +319,7 @@
                     line_color: [222/255, 39/255, 33/255, 1]
                     selected_color: [222/255, 39/255, 33/255, 1]
                     radius: [0, 5, 5, 0]
-
+                    on_release: root.left_starting_zone = "No"
                     MDSegmentButtonLabel:
                         text: "No"
                         theme_text_color: "Custom"
@@ -347,7 +358,8 @@
                         theme_line_color: "Custom"
                         line_color: [120/255, 204/255, 51/255, 1]
                         theme_bg_color: "Custom"
-                        md_bg_color: [0.95, 0.95, 0.95, .05] 
+                        md_bg_color: [0.95, 0.95, 0.95, .05]
+                        on_release: root.increment1()
                         # padding: [30, 20, 30, 20]
 
                         MDButtonText:
@@ -386,7 +398,8 @@
                         theme_line_color: "Custom"
                         line_color: [222/255, 39/255, 33/255, 1]
                         theme_bg_color: "Custom"
-                        md_bg_color: [0.95, 0.95, 0.95, .05] 
+                        md_bg_color: [0.95, 0.95, 0.95, .05]
+                        on_release: root.decrement1()
                         # padding: [30, 20, 30, 20]
 
                         MDButtonText:
@@ -404,7 +417,7 @@
                     
                 MDLabel:
                     adaptive_size: True
-                    text: "Count: " + "0"
+                    text: "Count: " + str(root.auton_speaker)
                     theme_font_name: "Custom"
                     font_name: "Roboto1"
                     theme_text_color: "Custom"
@@ -445,7 +458,8 @@
                         theme_line_color: "Custom"
                         line_color: [120/255, 204/255, 51/255, 1]
                         theme_bg_color: "Custom"
-                        md_bg_color: [0.95, 0.95, 0.95, .05] 
+                        md_bg_color: [0.95, 0.95, 0.95, .05]
+                        on_release: root.increment2() 
                         # padding: [30, 20, 30, 20]
 
                         MDButtonText:
@@ -484,7 +498,8 @@
                         theme_line_color: "Custom"
                         line_color: [222/255, 39/255, 33/255, 1]
                         theme_bg_color: "Custom"
-                        md_bg_color: [0.95, 0.95, 0.95, .05] 
+                        md_bg_color: [0.95, 0.95, 0.95, .05]
+                        on_release: root.decrement2() 
                         # padding: [30, 20, 30, 20]
 
                         MDButtonText:
@@ -502,7 +517,7 @@
                     
                 MDLabel:
                     adaptive_size: True
-                    text: "Count: " + "0"
+                    text: "Count: " + str(root.auton_amp)
                     theme_font_name: "Custom"
                     font_name: "Roboto1"
                     theme_text_color: "Custom"
@@ -565,7 +580,8 @@
                         theme_line_color: "Custom"
                         line_color: [120/255, 204/255, 51/255, 1]
                         theme_bg_color: "Custom"
-                        md_bg_color: [0.95, 0.95, 0.95, .05] 
+                        md_bg_color: [0.95, 0.95, 0.95, .05]
+                        on_release: root.increment3()
                         # padding: [30, 20, 30, 20]
 
                         MDButtonText:
@@ -604,7 +620,8 @@
                         theme_line_color: "Custom"
                         line_color: [222/255, 39/255, 33/255, 1]
                         theme_bg_color: "Custom"
-                        md_bg_color: [0.95, 0.95, 0.95, .05] 
+                        md_bg_color: [0.95, 0.95, 0.95, .05]
+                        on_release: root.decrement3() 
                         # padding: [30, 20, 30, 20]
 
                         MDButtonText:
@@ -622,7 +639,7 @@
                     
                 MDLabel:
                     adaptive_size: True
-                    text: "Count: " + "0"
+                    text: "Count: " + str(root.teleop_speaker)
                     theme_font_name: "Custom"
                     font_name: "Roboto1"
                     theme_text_color: "Custom"
@@ -663,7 +680,8 @@
                         theme_line_color: "Custom"
                         line_color: [120/255, 204/255, 51/255, 1]
                         theme_bg_color: "Custom"
-                        md_bg_color: [0.95, 0.95, 0.95, .05] 
+                        md_bg_color: [0.95, 0.95, 0.95, .05]
+                        on_release: root.increment4() 
                         # padding: [30, 20, 30, 20]
 
                         MDButtonText:
@@ -702,7 +720,8 @@
                         theme_line_color: "Custom"
                         line_color: [222/255, 39/255, 33/255, 1]
                         theme_bg_color: "Custom"
-                        md_bg_color: [0.95, 0.95, 0.95, .05] 
+                        md_bg_color: [0.95, 0.95, 0.95, .05]
+                        on_release: root.decrement4() 
                         # padding: [30, 20, 30, 20]
 
                         MDButtonText:
@@ -720,7 +739,7 @@
                     
                 MDLabel:
                     adaptive_size: True
-                    text: "Count: " + "0"
+                    text: "Count: " + str(root.teleop_amp)
                     theme_font_name: "Custom"
                     font_name: "Roboto1"
                     theme_text_color: "Custom"
@@ -764,6 +783,7 @@
                 pos_hint: {'center_x': .5, 'center_y': .8}
 
             MDSegmentedButton:
+                id: trap
                 pos_hint: {'center_x': 0.5, 'center_y': 0.5}
                 size_hint: None, None
                 theme_bg_color: "Custom"
@@ -774,6 +794,7 @@
                     line_color: [120/255, 204/255, 51/255, 1]
                     selected_color: [120/255, 204/255, 51/255, 1]
                     radius: [5, 0, 0, 5]
+                    on_release: root.trap = "Yes"
                     MDSegmentButtonLabel:
                         text: "Yes"
                         theme_text_color: "Custom"
@@ -786,7 +807,7 @@
                     line_color: [222/255, 39/255, 33/255, 1]
                     selected_color: [222/255, 39/255, 33/255, 1]
                     radius: [0, 5, 5, 0]
-
+                    on_release: root.trap = "No"
                     MDSegmentButtonLabel:
                         text: "No"
                         theme_text_color: "Custom"
@@ -806,6 +827,7 @@
                 pos_hint: {'center_x': .5, 'center_y': .8}
 
             MDSegmentedButton:
+                id: harmonized
                 pos_hint: {'center_x': 0.5, 'center_y': 0.5}
                 size_hint: None, None
                 theme_bg_color: "Custom"
@@ -816,6 +838,7 @@
                     line_color: [120/255, 204/255, 51/255, 1]
                     selected_color: [120/255, 204/255, 51/255, 1]
                     radius: [5, 0, 0, 5]
+                    on_release: root.harmonized = "Yes"
                     MDSegmentButtonLabel:
                         text: "Yes"
                         theme_text_color: "Custom"
@@ -828,7 +851,7 @@
                     line_color: [222/255, 39/255, 33/255, 1]
                     selected_color: [222/255, 39/255, 33/255, 1]
                     radius: [0, 5, 5, 0]
-
+                    on_release: root.harmonized = "No"
                     MDSegmentButtonLabel:
                         text: "No"
                         theme_text_color: "Custom"
@@ -848,6 +871,7 @@
                 pos_hint: {'center_x': .5, 'center_y': .8}
             
             MDSegmentedButton:
+                id: climbed
                 pos_hint: {'center_x': 0.5, 'center_y': 0.5}
                 size_hint: None, None
                 theme_bg_color: "Custom"
@@ -858,6 +882,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.climbed = "None"
                     MDSegmentButtonLabel:
                         text: "None"
                         theme_text_color: "Custom"
@@ -870,6 +895,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.climbed = "Park"
                     MDSegmentButtonLabel:
                         text: "Park"
                         theme_text_color: "Custom"
@@ -882,6 +908,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.climbed = "Hang"
                     MDSegmentButtonLabel:
                         text: "Hang"
                         theme_text_color: "Custom"
@@ -922,6 +949,7 @@
                 pos_hint: {'center_x': .5, 'center_y': .8}
 
             MDSegmentedButton:
+                id: robot_driving
                 pos_hint: {'center_x': 0.5, 'center_y': 0.5}
                 size_hint: None, None
                 theme_bg_color: "Custom"
@@ -932,6 +960,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.robot_driving = "Poor"
                     MDSegmentButtonLabel:
                         text: "Poor"
                         theme_text_color: "Custom"
@@ -944,6 +973,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.robot_driving = "Mid"
                     MDSegmentButtonLabel:
                         text: "Mid"
                         theme_text_color: "Custom"
@@ -956,6 +986,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.robot_driving = "Excellent"
                     MDSegmentButtonLabel:
                         text: "Excellent"
                         theme_text_color: "Custom"
@@ -975,6 +1006,7 @@
                 pos_hint: {'center_x': .5, 'center_y': .8}
 
             MDSegmentedButton:
+                id: defense_capabilities
                 pos_hint: {'center_x': 0.5, 'center_y': 0.5}
                 size_hint: None, None
                 theme_bg_color: "Custom"
@@ -985,6 +1017,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.defense_capabilities = "N/A"
                     MDSegmentButtonLabel:
                         text: "N/A"
                         theme_text_color: "Custom"
@@ -997,6 +1030,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.defense_capabilities = "Poor"
                     MDSegmentButtonLabel:
                         text: "Poor"
                         theme_text_color: "Custom"
@@ -1009,6 +1043,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.defense_capabilities = "Mid"
                     MDSegmentButtonLabel:
                         text: "Mid"
                         theme_text_color: "Custom"
@@ -1021,6 +1056,7 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
+                    on_release: root.defense_capabilities = "Excellent"
                     MDSegmentButtonLabel:
                         text: "Excellent"
                         theme_text_color: "Custom"
@@ -1029,6 +1065,7 @@
                         font_size: "16sp"
             
             MDTextField:
+                id: other_notes
                 mode: "outlined"
                 size_hint_x: None
                 width: "200dp"
@@ -1070,7 +1107,7 @@
                 theme_bg_color: "Custom"
                 md_bg_color: [0.95, 0.95, 0.95, .05]
                 padding: [0, 0, 0, 20]
-                on_release: root.manager.current = 'pits'
+                on_release: root.submit_data()
 
                 MDButtonText:
                     text: "SUBMIT TO SERVER"
