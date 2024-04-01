@@ -1,9 +1,15 @@
+from kivy.uix.label import Label
 from kivy.uix.screenmanager import Screen
 from kivy.uix.screenmanager import Screen
 from kivymd.uix.textfield import MDTextField
 from kivy.app import App
 import json
 from .homescreen import MainScreen
+import qrcode
+from kivy.uix.popup import Popup
+from kivy.uix.image import Image
+from kivy.uix.button import Button
+from kivy.uix.boxlayout import BoxLayout
 
 main_screen = MainScreen()
 current_scouter = main_screen.current_scouter
@@ -90,13 +96,52 @@ class PitScreen(Screen):
                 f.write(json.dumps(item) + (',' if i < len(existing_data) - 1 else '') + '\n')
             f.write(']\n')
 
-        self.reset_values()
-        app = App.get_running_app()
-        old_screen = app.root.get_screen(self.name)
-        app.root.remove_widget(old_screen)
-        new_screen = PitScreen(name=self.name)
-        app.root.add_widget(new_screen)
-        app.root.current = new_screen.name
+        qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.constants.ERROR_CORRECT_L,
+        box_size=10,
+        border=4,
+        )
+        qr.add_data(json.dumps(data))
+        qr.make(fit=True)
+
+        # Create an image from the QR code
+        img = qr.make_image(fill='black', back_color='white')
+        img.save('qrcode.png')
+
+        # Create a popup with the QR code and a "Done" button
+        # Create a popup with the QR code and a "Done" button
+        layout = BoxLayout(orientation='vertical')
+        qr_image = Image(source='qrcode.png')
+        qr_image.reload()
+
+        # Create the "Done" button with a size hint and position hint
+        done_button = Button(text='Done', size_hint=(.3, .1), pos_hint={'center_x': .5})
+
+        # Add a padding of 50px between the image and the button
+        # Add a padding of 25px at the top of the layout
+        layout.add_widget(Label(size_hint_y=None, height=25))  # This is the padding
+        layout.add_widget(qr_image)
+        layout.add_widget(Label(size_hint_y=None, height=25))  # This is the padding
+        layout.add_widget(done_button)
+
+        popup = Popup(content=layout, auto_dismiss=False, title_size=0, separator_height=0)
+
+        # When the "Done" button is clicked, close the popup and reset the screen
+        def on_done_button_click(instance):
+            popup.dismiss()
+            self.reset_values()
+            app = App.get_running_app()
+            old_screen = app.root.get_screen(self.name)
+            app.root.remove_widget(old_screen)
+            new_screen = PitScreen(name=self.name)
+            app.root.add_widget(new_screen)
+            app.root.current = new_screen.name
+
+        done_button.bind(on_release=on_done_button_click)
+
+        # Open the popup
+        popup.open()
 
 
 
