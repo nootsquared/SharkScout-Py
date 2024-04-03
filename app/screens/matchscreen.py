@@ -11,7 +11,7 @@ from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
 from kivy.lang import Builder
 from kivy.uix.widget import Widget
-
+from kivy.properties import StringProperty
 from kivymd.app import MDApp
 from kivymd.uix.button import MDButton, MDButtonText
 from kivy.uix.label import Label
@@ -38,6 +38,12 @@ class MatchScreen(Screen):
     auton_amp = NumericProperty(0)
     teleop_speaker = NumericProperty(0)
     teleop_amp = NumericProperty(0)
+    r1 = StringProperty("N/A")
+    r2 = StringProperty("N/A")
+    r3 = StringProperty("N/A")
+    b1 = StringProperty("N/A")
+    b2 = StringProperty("N/A")
+    b3 = StringProperty("N/A")
 
     def increment1(self):
         self.auton_speaker += 1
@@ -67,28 +73,31 @@ class MatchScreen(Screen):
         if self.teleop_amp > 0:
             self.teleop_amp -= 1
 
-    def submit(self, qual_number):
+    def submit_match_num(self, qual_number):
         with open('tba.json') as f:
             data = json.load(f)
 
-        # Create a dictionary to store the team names for each alliance
         alliances = {"R1": "", "R2": "", "R3": "", "B1": "", "B2": "", "B3": ""}
+        self.matchnumber = qual_number
 
         for entry in data:
-            if entry['match'] == int(qual_number):  # Convert qual_number to int for comparison
-                alliances[entry['alliance']] = entry['team']
+            if entry['match'] == int(qual_number):
+                alliances[entry['alliance']] = entry['team'].split()[0]
 
-        self.root.ids.r1_label.text = f"R1: {alliances['R1']}"
+        self.r1 = alliances['R1']
+        self.r2 = alliances['R2']
+        self.r3 = alliances['R3']
+        self.b1 = alliances['B1']
+        self.b2 = alliances['B2']
+        self.b3 = alliances['B3']
 
-        # Update the segments of the MDSegmentedButton with the team names
-        self.root.ids.segmented_button.segments = [
-            f"R1: {alliances['R1']}",
-            f"R2: {alliances['R2']}",
-            f"R3: {alliances['R3']}",
-            f"B1: {alliances['B1']}",
-            f"B2: {alliances['B2']}",
-            f"B3: {alliances['B3']}",
-        ]
+        self.ids.r1_label.text = f"R1: {self.r1}"
+        self.ids.r2_label.text = f"R2: {self.r2}"
+        self.ids.r3_label.text = f"R3: {self.r3}"
+        self.ids.b1_label.text = f"B1: {self.b1}"
+        self.ids.b2_label.text = f"B2: {self.b2}"
+        self.ids.b3_label.text = f"B3: {self.b3}"
+    
 
     def __init__(self, **kwargs):
         super(MatchScreen, self).__init__(**kwargs)
@@ -100,6 +109,13 @@ class MatchScreen(Screen):
         self.climbed = ""
         self.robot_driving = ""
         self.defense_capabilities = ""
+
+        self.selectedteam = ''
+        self.matchnumber = ''
+    
+    def selected_team(self, value):
+        print(f"Selected team: {value}")
+        self.selectedteam = value
 
     def set_starting_place(self, value):
         self.starting_place = value
@@ -129,8 +145,8 @@ class MatchScreen(Screen):
         
         data = {
             'scouter_name': current_scouter,
-            #match_number
-            #team_number
+            'match_number': self.matchnumber,
+            'team_number': self.selectedteam,
             #alliance
             'starting_position': self.starting_place,
             'amp_notes_auton': self.auton_amp,

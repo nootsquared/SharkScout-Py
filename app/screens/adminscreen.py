@@ -3,6 +3,7 @@ import requests
 from kivy.uix.screenmanager import Screen
 from tkinter import Tk, filedialog
 from kivy.uix.textinput import TextInput
+from kivy.properties import StringProperty
 
 class AdminScreen(Screen):
     #tba_input = TextInput(id='tba_input')

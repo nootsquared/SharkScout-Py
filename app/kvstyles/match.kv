@@ -105,7 +105,7 @@
                 theme_line_color: "Custom"
                 line_color: [120/255, 204/255, 51/255, 1]
                 # padding: [30, 20, 30, 20]
-                on_release: root.submit(qual_number.text)
+                on_release: root.submit_match_num(qual_number.text)
                 theme_bg_color: "Custom"
                 md_bg_color: [0.95, 0.95, 0.95, .05]
 
@@ -134,10 +134,10 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
-                    
+                    on_release: root.selected_team(root.r1)
                     MDSegmentButtonLabel:
                         id: r1_label
-                        text: "R1: "
+                        text: "R1: " + root.r1
                         theme_text_color: "Custom"
                         text_color: [1, 1, 1, 1]
                         theme_font_size: "Custom"
@@ -148,9 +148,10 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
-
+                    on_release: root.selected_team( root.r2)
                     MDSegmentButtonLabel:
-                        text: "R2: "
+                        id: r2_label
+                        text: "R2: " + root.r2
                         theme_text_color: "Custom"
                         text_color: [1, 1, 1, 1]
                         theme_font_size: "Custom"
@@ -161,9 +162,10 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
-
+                    on_release: root.selected_team(root.r3)
                     MDSegmentButtonLabel:
-                        text: "R3: "
+                        id: r3_label
+                        text: "R3: " + root.r3
                         theme_text_color: "Custom"
                         text_color: [1, 1, 1, 1]
                         theme_font_size: "Custom"
@@ -174,9 +176,10 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
-                    
+                    on_release: root.selected_team(root.b1)
                     MDSegmentButtonLabel:
-                        text: "B1: "
+                        id: b1_label
+                        text: "B1: " + root.b1
                         theme_text_color: "Custom"
                         text_color: [1, 1, 1, 1]
                         theme_font_size: "Custom"
@@ -186,9 +189,10 @@
                     theme_line_color: "Custom"
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
-
+                    on_release: root.selected_team(root.b2)
                     MDSegmentButtonLabel:
-                        text: "B2: "
+                        id: b2_label
+                        text: "B2: " + root.b2
                         theme_text_color: "Custom"
                         text_color: [1, 1, 1, 1]
                         theme_font_size: "Custom"
@@ -199,48 +203,14 @@
                     line_color: [2/255, 136/255, 209/255, 1]
                     selected_color: [2/255, 136/255, 209/255, 1]
                     radius: [5, 5, 5, 5]
-
+                    on_release: root.selected_team(root.b3)
                     MDSegmentButtonLabel:
-                        text: "B3: "
+                        id: b3_label
+                        text: "B3: " + root.b3
                         theme_text_color: "Custom"
                         text_color: [1, 1, 1, 1]
                         theme_font_size: "Custom"
                         font_size: "16sp"
-
-            MDLabel:
-                adaptive_size: True
-                text: "Team Number: "
-                theme_font_name: "Custom"
-                font_name: "Roboto1"
-                text_color: [1, 1, 1, 1]
-                theme_text_color: "Custom"
-                theme_font_size: "Custom"
-                font_size: "15sp"
-                pos_hint: {'center_x': .5, 'center_y': .8}
-                
-
-            MDLabel:
-                adaptive_size: True
-                text: "Match #: "
-                theme_font_name: "Custom"
-                font_name: "Roboto1"
-                text_color: [1, 1, 1, 1]
-                theme_text_color: "Custom"
-                theme_font_size: "Custom"
-                font_size: "15sp"
-                pos_hint: {'center_x': .5, 'center_y': .8}
-
-            MDLabel:
-                adaptive_size: True
-                text: "Alliance: "
-                theme_font_name: "Custom"
-                font_name: "Roboto1"
-                text_color: [1, 1, 1, 1]
-                theme_text_color: "Custom"
-                theme_font_size: "Custom"
-                font_size: "15sp"
-                pos_hint: {'center_x': .5, 'center_y': .8}
-                #/padding: [0, 0, 0, 20]
 
             MDDivider:
                 orientation: "horizontal"
