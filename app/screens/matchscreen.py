@@ -106,20 +106,23 @@ class MatchScreen(Screen):
     def submit_data(self):
         
         data = {
-            'name': current_scouter,
-            'starting_place': self.starting_place,
-            'note_pickup': self.note_pickup,
+            'scouter_name': current_scouter,
+            #match_number
+            #team_number
+            #alliance
+            'starting_position': self.starting_place,
+            'amp_notes_auton': self.auton_amp,
+            'speaker_notes_auton': self.auton_speaker,
+            'additional_notes_location': self.note_pickup,
             'left_starting_zone': self.left_starting_zone,
-            'auton_speaker': self.auton_speaker,
-            'auton_amp': self.auton_amp,
-            'teleop_speaker': self.teleop_speaker,
-            'teleop_amp': self.teleop_amp,
+            'amp_notes_teleop': self.teleop_amp,
+            'speaker_notes_teleop': self.teleop_speaker,
             'trap': self.trap,
-            'harmonized': self.harmonized,
-            'climbed': self.climbed,
+            'hang_or_park': self.climbed,
+            'harmonize': self.harmonized,
             'robot_driving': self.robot_driving,
-            'defense_capabilities': self.defense_capabilities,
-            'other_notes': self.ids.other_notes.text,
+            'defense_capability': self.defense_capabilities,
+            'notes': self.ids.other_notes.text,
         }
 
         file_path = 'output.json'
@@ -187,7 +190,8 @@ class MatchScreen(Screen):
 
         # Open the popup
         popup.open()
-
+#{"scouter_name": "Zach", "match_number": "78", "team_number": "573", "alliance": "Blue", "starting_position": "Source", "amp_notes_auton": "0", "speaker_notes_auton": "1", "additional_notes_location": "Center line", "amp_notes_teleop": "0", "speaker_notes_teleop": "2", "trap": "No", "hang_or_park": "None", "harmonize": "No", "robot_driving": "Poor", "defense_capability": "Did not play defense", "notes": "Robot broke down at the source at around 1:45 and didn't start again", "totalAutonPoints": 1, "totalTeleopPoints": 2},
+#{"name":"Pranav_M","starting_place":"Center","note_pickup":"Both","left_starting_zone":"","auton_speaker":0,"auton_amp":0,"teleop_speaker":0,"teleop_amp":0,"trap":"","harmonized":"","climbed":"","robot_driving":"","defense_capabilities":"","other_notes":""}
     def reset_values(self):
         self.auton_speaker = 0
         self.auton_amp = 0

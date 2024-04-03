@@ -64,10 +64,12 @@ class PitScreen(Screen):
     def set_under_stage(self, value):
         self.under_stage = value
 
+    
+
     def submit_data(self):
         print(self.drive_train)
         data = {
-            'name': current_scouter,
+            'scouter_name': current_scouter,
             'team_number': self.ids.team_number_pit.text,
             'drive_train': self.drive_train,
             'fit_under_stage': self.fit_under_stage,
@@ -78,7 +80,7 @@ class PitScreen(Screen):
             'buddy_climb': self.buddy_climb,
             'score_via_trap': self.score_via_trap,
             'under_stage': self.under_stage,
-            'other_notes': self.ids.additional_comments_pit.text,
+            'notes': self.ids.additional_comments_pit.text,
         }
 
         file_path = 'outputpit.json'

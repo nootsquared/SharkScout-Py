@@ -1,0 +1,353 @@
+[
+    {
+        "city": "Royal Oak",
+        "country": "USA",
+        "key": "frc1188",
+        "name": "General Motors/Bosch/TS Tech Americas/Inoac/Michigan Dept of Education/Michigan Engineering Zone (MEZ)&Royal Oak High School",
+        "nickname": "Ravens",
+        "state_prov": "Michigan",
+        "team_number": 1188
+    },
+    {
+        "city": "Dearborn",
+        "country": "USA",
+        "key": "frc1250",
+        "name": "Henry Ford Academy/Ford Motor Company/DADARA/The Henry Ford/Quantum Whatever&Henry Ford Academy Dearborn",
+        "nickname": "Gator-Bots",
+        "state_prov": "Michigan",
+        "team_number": 1250
+    },
+    {
+        "city": "Farmington",
+        "country": "USA",
+        "key": "frc1481",
+        "name": "General Motors/Novelis/Bosch/Havener Tech/Ford/Infineon/Haas Automation/DTE Energy/Pratt & Miller/Thysen-Krupp/EDAG-Dayco/Metro Bolt and Fasteners&Mercy High School",
+        "nickname": "The Riveters",
+        "state_prov": "Michigan",
+        "team_number": 1481
+    },
+    {
+        "city": "Monroe",
+        "country": "USA",
+        "key": "frc1528",
+        "name": "General Motors / The DTE Energy Foundation / DTE Energy Monroe Power Plant & Monroe High School",
+        "nickname": "MTR (Monroe Trojan Robotics)",
+        "state_prov": "Michigan",
+        "team_number": 1528
+    },
+    {
+        "city": "Sterling Heights",
+        "country": "USA",
+        "key": "frc217",
+        "name": "Ford Motor Company/Aptiv Foundation/Detronic Industries&Utica Community Schools",
+        "nickname": "ThunderChickens",
+        "state_prov": "Michigan",
+        "team_number": 217
+    },
+    {
+        "city": "Troy",
+        "country": "USA",
+        "key": "frc226",
+        "name": "General Motors/Aptiv/Michigan Department of Education/Kettering University/GMI Alumni Association/Stellantis/BAE Systems/Tebis America/Sandler EAM Consulting Group/Troy Community Foundation&Troy High School",
+        "nickname": "Hammerheads",
+        "state_prov": "Michigan",
+        "team_number": 226
+    },
+    {
+        "city": "Newport",
+        "country": "USA",
+        "key": "frc240",
+        "name": "DTE Foundation & Jefferson High School",
+        "nickname": "TEMPEST",
+        "state_prov": "Michigan",
+        "team_number": 240
+    },
+    {
+        "city": "Dexter",
+        "country": "USA",
+        "key": "frc3656",
+        "name": "Bosch/Ford Motor Company/Michigan DOE/Dexter Lions Club&Dexter High School",
+        "nickname": "Dexter Dreadbots",
+        "state_prov": "Michigan",
+        "team_number": 3656
+    },
+    {
+        "city": "Brighton",
+        "country": "USA",
+        "key": "frc3707",
+        "name": "General Motors/Brighton Area Schools/Brighton Light House/Promess/Altair/Ilmor Engineering/State of Michigan/Hitachi/Conely Auto/FCA&Brighton High School",
+        "nickname": "TechnoDogs",
+        "state_prov": "Michigan",
+        "team_number": 3707
+    },
+    {
+        "city": "Dundee",
+        "country": "USA",
+        "key": "frc4395",
+        "name": "Stellantis/State of Michigan - FRC Grant&Dundee High School",
+        "nickname": "Dundee Vi-Borgs",
+        "state_prov": "Michigan",
+        "team_number": 4395
+    },
+    {
+        "city": "Canton",
+        "country": "USA",
+        "key": "frc4405",
+        "name": "NASA/Ford/Lear Corporation/Michigan Department of Education/Magna/DTE Energy/Roush&Plymouth Christian Academy",
+        "nickname": "The Atoms Family",
+        "state_prov": "Michigan",
+        "team_number": 4405
+    },
+    {
+        "city": "Pontiac",
+        "country": "USA",
+        "key": "frc469",
+        "name": "Cyib Lings/General Motors/BAE/Nissan/On Shape/Lawrence Technological University/State of Michigan/Continental &International Academy-Central",
+        "nickname": "Las Guerrillas",
+        "state_prov": "Michigan",
+        "team_number": 469
+    },
+    {
+        "city": "West Bloomfield",
+        "country": "USA",
+        "key": "frc4737",
+        "name": "Meritor, Inc./ABB Robotics/NASA&West Bloomfield High School",
+        "nickname": "Atomigators",
+        "state_prov": "Michigan",
+        "team_number": 4737
+    },
+    {
+        "city": "Pontiac",
+        "country": "USA",
+        "key": "frc51",
+        "name": "GM Propulsion Systems/APTIV/Ford Foundation/The School District of the City of Pontiac & International Technology Acad & Pontiac High School",
+        "nickname": "Wings of Fire",
+        "state_prov": "Michigan",
+        "team_number": 51
+    },
+    {
+        "city": "Dearborn",
+        "country": "USA",
+        "key": "frc5531",
+        "name": "Ford Motor & Dearborn High School",
+        "nickname": "Orange Crush",
+        "state_prov": "Michigan",
+        "team_number": 5531
+    },
+    {
+        "city": "Dearborn",
+        "country": "USA",
+        "key": "frc6057",
+        "name": "Edsel Ford High School",
+        "nickname": "Thunderbots",
+        "state_prov": "Michigan",
+        "team_number": 6057
+    },
+    {
+        "city": "Ann Arbor",
+        "country": "USA",
+        "key": "frc6101",
+        "name": "Washentenaw Tech Mid College",
+        "nickname": "Strange Quarks",
+        "state_prov": "Michigan",
+        "team_number": 6101
+    },
+    {
+        "city": "New Haven",
+        "country": "USA",
+        "key": "frc6120",
+        "name": "Tender Care Pediatrics/DCS Waterjet&Merritt Academy",
+        "nickname": "CyberStangs",
+        "state_prov": "Michigan",
+        "team_number": 6120
+    },
+    {
+        "city": "Adrian",
+        "country": "USA",
+        "key": "frc6150",
+        "name": "Adrian Public Schools/Dr. Michael Ballard /Plastic Omnium /LISD/Farver Foundation&Adrian High School",
+        "nickname": "Bluebotics",
+        "state_prov": "Michigan",
+        "team_number": 6150
+    },
+    {
+        "city": "Ypsilanti",
+        "country": "USA",
+        "key": "frc6538",
+        "name": "Wilkerson Family & Lincoln High School",
+        "nickname": "Linc-Bots",
+        "state_prov": "Michigan",
+        "team_number": 6538
+    },
+    {
+        "city": "Ottawa Lake",
+        "country": "USA",
+        "key": "frc6570",
+        "name": "Michigan Department of Education/Romanoff Industries/Andon Cedar Split Fencing/SSOE&Whiteford Middle High School",
+        "nickname": "Whiteford Bobcats",
+        "state_prov": "Michigan",
+        "team_number": 6570
+    },
+    {
+        "city": "Ypsilanti",
+        "country": "USA",
+        "key": "frc66",
+        "name": "General Motors Corp/Michigan Department of Education&Ypsilanti STEMM Middle College",
+        "nickname": "Grizzly Robotics",
+        "state_prov": "Michigan",
+        "team_number": 66
+    },
+    {
+        "city": "Belleville",
+        "country": "USA",
+        "key": "frc6615",
+        "name": "Belleville Yacht Club/Stoney Creek Motorsports/ZF North America/Constellium/Van Buren Education Foundation & Belleville High School",
+        "nickname": "Bellevillains",
+        "state_prov": "Michigan",
+        "team_number": 6615
+    },
+    {
+        "city": "Ann Arbor",
+        "country": "USA",
+        "key": "frc7147",
+        "name": "Toyota&Central Academy",
+        "nickname": "Rising Falcons",
+        "state_prov": "Michigan",
+        "team_number": 7147
+    },
+    {
+        "city": "Holly",
+        "country": "USA",
+        "key": "frc7211",
+        "name": "Allied construction/Shannon  Precision fasteners/GM/Fluffybutts cattery/Stellantis&Holly High School",
+        "nickname": "Hollywood",
+        "state_prov": "Michigan",
+        "team_number": 7211
+    },
+    {
+        "city": "Brighton",
+        "country": "USA",
+        "key": "frc7220",
+        "name": "Livingston Christian School",
+        "nickname": "Steel Falcons",
+        "state_prov": "Michigan",
+        "team_number": 7220
+    },
+    {
+        "city": "Wixom",
+        "country": "USA",
+        "key": "frc7598",
+        "name": "Special T\u2019s Packaging LLC/Superb Fabricating LLC Laser Cutting/FIRST in Michigan/Ford Motor Company/Toyota/Pratt and Miller&St Catherine of Siena Academy",
+        "nickname": "SCA Constellations",
+        "state_prov": "Michigan",
+        "team_number": 7598
+    },
+    {
+        "city": "Dearborn",
+        "country": "USA",
+        "key": "frc8179",
+        "name": "Ford Motor Company/Sonic EDM/Argosy Foundation/Department of Defense/St. Sabina/Red Viking/Kettering University&Divine Child High School",
+        "nickname": "Robo Falcons",
+        "state_prov": "Michigan",
+        "team_number": 8179
+    },
+    {
+        "city": "Ann Arbor",
+        "country": "USA",
+        "key": "frc830",
+        "name": "Ford Motor Company/Bosch/Michigan Department of Education/Maker Works/Harbor Freight/Ann Arbor Public Schools & Huron High School & Early College Alliance",
+        "nickname": "The RatPack",
+        "state_prov": "Michigan",
+        "team_number": 830
+    },
+    {
+        "city": "Blissfield",
+        "country": "USA",
+        "key": "frc8373",
+        "name": "Hi-Lex&Blissfield High School",
+        "nickname": "The Flying Octopi: 8373 R.R.T.",
+        "state_prov": "Michigan",
+        "team_number": 8373
+    },
+    {
+        "city": "Erie",
+        "country": "USA",
+        "key": "frc8519",
+        "name": "Apex Metal Fabricating & Machine Company&Mason High School",
+        "nickname": "Iron Eagles",
+        "state_prov": "Michigan",
+        "team_number": 8519
+    },
+    {
+        "city": "Petersburg",
+        "country": "USA",
+        "key": "frc8832",
+        "name": "Treetown Tech/Unique Design/LaRocca Trucking/Iott Insurance/David Arthur Consultants, lnc/Stock Drilling/D&P Communications/Crown Battery/Thompson Plumbing, Heating, & AC/Michigan Youth Education Fund/Holly Szafarek&Summerfield Jr Sr High School",
+        "nickname": "AutoDawgs",
+        "state_prov": "Michigan",
+        "team_number": 8832
+    },
+    {
+        "city": "Clinton",
+        "country": "USA",
+        "key": "frc8895",
+        "name": "Clinton High School",
+        "nickname": "Redwolves Robotics",
+        "state_prov": "Michigan",
+        "team_number": 8895
+    },
+    {
+        "city": "Harper Woods",
+        "country": "USA",
+        "key": "frc8899",
+        "name": "Chandler Park Academy-Hs",
+        "nickname": "Eagles",
+        "state_prov": "Michigan",
+        "team_number": 8899
+    },
+    {
+        "city": "Ypsilanti",
+        "country": "USA",
+        "key": "frc9211",
+        "name": "AACE",
+        "nickname": "ACCE Underdogs",
+        "state_prov": "Michigan",
+        "team_number": 9211
+    },
+    {
+        "city": "Southfield",
+        "country": "USA",
+        "key": "frc94",
+        "name": "FORD MOTOR COMPANY/Michigan Department of Education/Society of Manufacturing Engineers&Southfield Hs-Arts & Tech",
+        "nickname": "The  TechnoJays",
+        "state_prov": "Michigan",
+        "team_number": 94
+    },
+    {
+        "city": "Redford",
+        "country": "USA",
+        "key": "frc9727",
+        "name": "Westfield Preparatory High School",
+        "nickname": "Warrior Robotics",
+        "state_prov": "Michigan",
+        "team_number": 9727
+    },
+    {
+        "city": "Romulus",
+        "country": "USA",
+        "key": "frc9735",
+        "name": "Summit Academy North High Sch",
+        "nickname": "Electric Dragons",
+        "state_prov": "Michigan",
+        "team_number": 9735
+    },
+    {
+        "city": "Detroit",
+        "country": "USA",
+        "key": "frc9775",
+        "name": "Old Redford Academy Prep HS",
+        "nickname": "Ravens",
+        "state_prov": "Michigan",
+        "team_number": 9775
+    }
+]

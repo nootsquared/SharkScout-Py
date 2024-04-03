@@ -12,12 +12,14 @@ WindowManager:
     #Background Color
     canvas.before:
         Color:
-            rgba: 255/255, 69/255, 66/255, 0.2
+            rgba: 32/255, 32/255, 32/255, 1
         Rectangle:
             pos: self.pos
             size: self.size
 
     MDScrollView:
+        do_scroll_x: False
+        do_scroll_y: True
         MDBoxLayout:
             orientation: 'vertical'
             adaptive_height: True
@@ -88,18 +90,10 @@ WindowManager:
                 theme_font_size: "Custom"
                 font_size: "20sp"
                 pos_hint: {'center_x': .5, 'center_y': .52}
-
-            MDDivider:
-                orientation: "horizontal"
-                height: "1"
-                width: "200"
-                size_hint_y: None
-                size_hint_x: None
-                color: (64/255, 64/255, 64/255, .5)
-                pos_hint: {'center_x': 0.5}
                     
             MDTextField:
                 mode: "outlined"
+                id: tba_input
                 size_hint_x: None
                 width: "200dp"
                 theme_line_color: "Custom"
@@ -127,9 +121,11 @@ WindowManager:
                 radius: [5, 5, 5, 5]
                 theme_line_color: "Custom"
                 line_color: [120/255, 204/255, 51/255, 1]
-                # padding: [30, 20, 30, 20] 
+                padding: [0, 0, 0, 40] 
                 theme_bg_color: "Custom"
                 md_bg_color: [0.95, 0.95, 0.95, .05]
+                on_release: root.submit()
+
 
                 MDButtonText:
                     text: "SUBMIT"
@@ -161,6 +157,7 @@ WindowManager:
                 size_hint: None, None
                 theme_bg_color: "Custom"
                 size: self.minimum_size
+                padding: [0, 0,0, 30]
 
                 MDSegmentedButtonItem:
                     theme_line_color: "Custom"
@@ -197,6 +194,63 @@ WindowManager:
                         text_color: [1, 1, 1, 1]
                         theme_font_size: "Custom"
                         font_size: "16sp"
+
+
+            MDButton:
+                style: "outlined"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.61}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "56dp"
+                width: "200dp"
+                radius: [5, 5, 5, 5]
+                theme_line_color: "Custom"
+                line_color: [2/255, 136/255, 209/255, 1]
+                theme_bg_color: "Custom"
+                md_bg_color: [0.95, 0.95, 0.95, .05]
+
+                on_release: root.export_data()
+
+                MDButtonText:
+                    text: "EXPORT DATA"
+                    theme_text_color: "Custom"
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    text_color: [1, 1, 1, 1] 
+                    theme_font_size: "Custom"
+                    theme_font_name: "Custom"
+                    font_name: "Roboto"
+                    theme_font_size: "Custom"
+                    font_size: "16sp"
+                    halign: 'center'
+                    valign: 'center'
+
+            MDButton:
+                style: "outlined"
+                pos_hint: {'center_x': 0.5, 'center_y': 0.61}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "56dp"
+                width: "200dp"
+                radius: [5, 5, 5, 5]
+                theme_line_color: "Custom"
+                line_color: [2/255, 136/255, 209/255, 1]
+                theme_bg_color: "Custom"
+                md_bg_color: [0.95, 0.95, 0.95, .05]
+
+                on_release: root.delete_data()
+
+                MDButtonText:
+                    text: "DELETE ALL DATA"
+                    theme_text_color: "Custom"
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    text_color: [1, 1, 1, 1] 
+                    theme_font_size: "Custom"
+                    theme_font_name: "Custom"
+                    font_name: "Roboto"
+                    theme_font_size: "Custom"
+                    font_size: "16sp"
+                    halign: 'center'
+                    valign: 'center'
 
 # home page scouting screen
 <MainScreen>:

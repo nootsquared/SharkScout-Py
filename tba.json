@@ -1,0 +1,2342 @@
+[
+    {
+        "match": 1,
+        "team": "9775 Ravens",
+        "alliance": "R1"
+    },
+    {
+        "match": 1,
+        "team": "3707 TechnoDogs",
+        "alliance": "R2"
+    },
+    {
+        "match": 1,
+        "team": "217 ThunderChickens",
+        "alliance": "R3"
+    },
+    {
+        "match": 1,
+        "team": "7211 Hollywood",
+        "alliance": "B1"
+    },
+    {
+        "match": 1,
+        "team": "469 Las Guerrillas",
+        "alliance": "B2"
+    },
+    {
+        "match": 1,
+        "team": "4737 Atomigators",
+        "alliance": "B3"
+    },
+    {
+        "match": 10,
+        "team": "9735 Electric Dragons",
+        "alliance": "R1"
+    },
+    {
+        "match": 10,
+        "team": "94 The  TechnoJays",
+        "alliance": "R2"
+    },
+    {
+        "match": 10,
+        "team": "6150 Bluebotics",
+        "alliance": "R3"
+    },
+    {
+        "match": 10,
+        "team": "6538 Linc-Bots",
+        "alliance": "B1"
+    },
+    {
+        "match": 10,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "B2"
+    },
+    {
+        "match": 10,
+        "team": "6615 Bellevillains",
+        "alliance": "B3"
+    },
+    {
+        "match": 11,
+        "team": "7598 SCA Constellations",
+        "alliance": "R1"
+    },
+    {
+        "match": 11,
+        "team": "7220 Steel Falcons",
+        "alliance": "R2"
+    },
+    {
+        "match": 11,
+        "team": "6057 Thunderbots",
+        "alliance": "R3"
+    },
+    {
+        "match": 11,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "B1"
+    },
+    {
+        "match": 11,
+        "team": "8899 Eagles",
+        "alliance": "B2"
+    },
+    {
+        "match": 11,
+        "team": "6101 Strange Quarks",
+        "alliance": "B3"
+    },
+    {
+        "match": 12,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "R1"
+    },
+    {
+        "match": 12,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "R2"
+    },
+    {
+        "match": 12,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "R3"
+    },
+    {
+        "match": 12,
+        "team": "51 Wings of Fire",
+        "alliance": "B1"
+    },
+    {
+        "match": 12,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "B2"
+    },
+    {
+        "match": 12,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "B3"
+    },
+    {
+        "match": 13,
+        "team": "9727 Warrior Robotics",
+        "alliance": "R1"
+    },
+    {
+        "match": 13,
+        "team": "5531 Orange Crush",
+        "alliance": "R2"
+    },
+    {
+        "match": 13,
+        "team": "8179 Robo Falcons",
+        "alliance": "R3"
+    },
+    {
+        "match": 13,
+        "team": "8832 AutoDawgs",
+        "alliance": "B1"
+    },
+    {
+        "match": 13,
+        "team": "8519 Iron Eagles",
+        "alliance": "B2"
+    },
+    {
+        "match": 13,
+        "team": "6120 CyberStangs",
+        "alliance": "B3"
+    },
+    {
+        "match": 14,
+        "team": "3707 TechnoDogs",
+        "alliance": "R1"
+    },
+    {
+        "match": 14,
+        "team": "1188 Ravens",
+        "alliance": "R2"
+    },
+    {
+        "match": 14,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "R3"
+    },
+    {
+        "match": 14,
+        "team": "4405 The Atoms Family",
+        "alliance": "B1"
+    },
+    {
+        "match": 14,
+        "team": "1481 The Riveters",
+        "alliance": "B2"
+    },
+    {
+        "match": 14,
+        "team": "469 Las Guerrillas",
+        "alliance": "B3"
+    },
+    {
+        "match": 15,
+        "team": "830 The RatPack",
+        "alliance": "R1"
+    },
+    {
+        "match": 15,
+        "team": "7147 Rising Falcons",
+        "alliance": "R2"
+    },
+    {
+        "match": 15,
+        "team": "6057 Thunderbots",
+        "alliance": "R3"
+    },
+    {
+        "match": 15,
+        "team": "1250 Gator-Bots",
+        "alliance": "B1"
+    },
+    {
+        "match": 15,
+        "team": "94 The  TechnoJays",
+        "alliance": "B2"
+    },
+    {
+        "match": 15,
+        "team": "6615 Bellevillains",
+        "alliance": "B3"
+    },
+    {
+        "match": 16,
+        "team": "7598 SCA Constellations",
+        "alliance": "R1"
+    },
+    {
+        "match": 16,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "R2"
+    },
+    {
+        "match": 16,
+        "team": "6150 Bluebotics",
+        "alliance": "R3"
+    },
+    {
+        "match": 16,
+        "team": "4737 Atomigators",
+        "alliance": "B1"
+    },
+    {
+        "match": 16,
+        "team": "7220 Steel Falcons",
+        "alliance": "B2"
+    },
+    {
+        "match": 16,
+        "team": "240 TEMPEST",
+        "alliance": "B3"
+    },
+    {
+        "match": 17,
+        "team": "51 Wings of Fire",
+        "alliance": "R1"
+    },
+    {
+        "match": 17,
+        "team": "6101 Strange Quarks",
+        "alliance": "R2"
+    },
+    {
+        "match": 17,
+        "team": "9727 Warrior Robotics",
+        "alliance": "R3"
+    },
+    {
+        "match": 17,
+        "team": "7211 Hollywood",
+        "alliance": "B1"
+    },
+    {
+        "match": 17,
+        "team": "226 Hammerheads",
+        "alliance": "B2"
+    },
+    {
+        "match": 17,
+        "team": "8832 AutoDawgs",
+        "alliance": "B3"
+    },
+    {
+        "match": 18,
+        "team": "217 ThunderChickens",
+        "alliance": "R1"
+    },
+    {
+        "match": 18,
+        "team": "8179 Robo Falcons",
+        "alliance": "R2"
+    },
+    {
+        "match": 18,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "R3"
+    },
+    {
+        "match": 18,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "B1"
+    },
+    {
+        "match": 18,
+        "team": "9775 Ravens",
+        "alliance": "B2"
+    },
+    {
+        "match": 18,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "B3"
+    },
+    {
+        "match": 19,
+        "team": "6120 CyberStangs",
+        "alliance": "R1"
+    },
+    {
+        "match": 19,
+        "team": "6538 Linc-Bots",
+        "alliance": "R2"
+    },
+    {
+        "match": 19,
+        "team": "66 Grizzly Robotics",
+        "alliance": "R3"
+    },
+    {
+        "match": 19,
+        "team": "9735 Electric Dragons",
+        "alliance": "B1"
+    },
+    {
+        "match": 19,
+        "team": "8899 Eagles",
+        "alliance": "B2"
+    },
+    {
+        "match": 19,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "B3"
+    },
+    {
+        "match": 2,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "R1"
+    },
+    {
+        "match": 2,
+        "team": "1188 Ravens",
+        "alliance": "R2"
+    },
+    {
+        "match": 2,
+        "team": "7598 SCA Constellations",
+        "alliance": "R3"
+    },
+    {
+        "match": 2,
+        "team": "830 The RatPack",
+        "alliance": "B1"
+    },
+    {
+        "match": 2,
+        "team": "8179 Robo Falcons",
+        "alliance": "B2"
+    },
+    {
+        "match": 2,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "B3"
+    },
+    {
+        "match": 20,
+        "team": "94 The  TechnoJays",
+        "alliance": "R1"
+    },
+    {
+        "match": 20,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "R2"
+    },
+    {
+        "match": 20,
+        "team": "5531 Orange Crush",
+        "alliance": "R3"
+    },
+    {
+        "match": 20,
+        "team": "3707 TechnoDogs",
+        "alliance": "B1"
+    },
+    {
+        "match": 20,
+        "team": "6057 Thunderbots",
+        "alliance": "B2"
+    },
+    {
+        "match": 20,
+        "team": "8519 Iron Eagles",
+        "alliance": "B3"
+    },
+    {
+        "match": 21,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "R1"
+    },
+    {
+        "match": 21,
+        "team": "4737 Atomigators",
+        "alliance": "R2"
+    },
+    {
+        "match": 21,
+        "team": "51 Wings of Fire",
+        "alliance": "R3"
+    },
+    {
+        "match": 21,
+        "team": "240 TEMPEST",
+        "alliance": "B1"
+    },
+    {
+        "match": 21,
+        "team": "9727 Warrior Robotics",
+        "alliance": "B2"
+    },
+    {
+        "match": 21,
+        "team": "830 The RatPack",
+        "alliance": "B3"
+    },
+    {
+        "match": 22,
+        "team": "7211 Hollywood",
+        "alliance": "R1"
+    },
+    {
+        "match": 22,
+        "team": "217 ThunderChickens",
+        "alliance": "R2"
+    },
+    {
+        "match": 22,
+        "team": "6150 Bluebotics",
+        "alliance": "R3"
+    },
+    {
+        "match": 22,
+        "team": "1481 The Riveters",
+        "alliance": "B1"
+    },
+    {
+        "match": 22,
+        "team": "1250 Gator-Bots",
+        "alliance": "B2"
+    },
+    {
+        "match": 22,
+        "team": "8179 Robo Falcons",
+        "alliance": "B3"
+    },
+    {
+        "match": 23,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "R1"
+    },
+    {
+        "match": 23,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "R2"
+    },
+    {
+        "match": 23,
+        "team": "7598 SCA Constellations",
+        "alliance": "R3"
+    },
+    {
+        "match": 23,
+        "team": "8899 Eagles",
+        "alliance": "B1"
+    },
+    {
+        "match": 23,
+        "team": "7147 Rising Falcons",
+        "alliance": "B2"
+    },
+    {
+        "match": 23,
+        "team": "6538 Linc-Bots",
+        "alliance": "B3"
+    },
+    {
+        "match": 24,
+        "team": "4405 The Atoms Family",
+        "alliance": "R1"
+    },
+    {
+        "match": 24,
+        "team": "7220 Steel Falcons",
+        "alliance": "R2"
+    },
+    {
+        "match": 24,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "R3"
+    },
+    {
+        "match": 24,
+        "team": "8519 Iron Eagles",
+        "alliance": "B1"
+    },
+    {
+        "match": 24,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "B2"
+    },
+    {
+        "match": 24,
+        "team": "1188 Ravens",
+        "alliance": "B3"
+    },
+    {
+        "match": 25,
+        "team": "9775 Ravens",
+        "alliance": "R1"
+    },
+    {
+        "match": 25,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "R2"
+    },
+    {
+        "match": 25,
+        "team": "6101 Strange Quarks",
+        "alliance": "R3"
+    },
+    {
+        "match": 25,
+        "team": "8832 AutoDawgs",
+        "alliance": "B1"
+    },
+    {
+        "match": 25,
+        "team": "469 Las Guerrillas",
+        "alliance": "B2"
+    },
+    {
+        "match": 25,
+        "team": "5531 Orange Crush",
+        "alliance": "B3"
+    },
+    {
+        "match": 26,
+        "team": "226 Hammerheads",
+        "alliance": "R1"
+    },
+    {
+        "match": 26,
+        "team": "6120 CyberStangs",
+        "alliance": "R2"
+    },
+    {
+        "match": 26,
+        "team": "6615 Bellevillains",
+        "alliance": "R3"
+    },
+    {
+        "match": 26,
+        "team": "9735 Electric Dragons",
+        "alliance": "B1"
+    },
+    {
+        "match": 26,
+        "team": "66 Grizzly Robotics",
+        "alliance": "B2"
+    },
+    {
+        "match": 26,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "B3"
+    },
+    {
+        "match": 27,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "R1"
+    },
+    {
+        "match": 27,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "R2"
+    },
+    {
+        "match": 27,
+        "team": "1250 Gator-Bots",
+        "alliance": "R3"
+    },
+    {
+        "match": 27,
+        "team": "8179 Robo Falcons",
+        "alliance": "B1"
+    },
+    {
+        "match": 27,
+        "team": "3707 TechnoDogs",
+        "alliance": "B2"
+    },
+    {
+        "match": 27,
+        "team": "7598 SCA Constellations",
+        "alliance": "B3"
+    },
+    {
+        "match": 28,
+        "team": "6538 Linc-Bots",
+        "alliance": "R1"
+    },
+    {
+        "match": 28,
+        "team": "7211 Hollywood",
+        "alliance": "R2"
+    },
+    {
+        "match": 28,
+        "team": "1481 The Riveters",
+        "alliance": "R3"
+    },
+    {
+        "match": 28,
+        "team": "51 Wings of Fire",
+        "alliance": "B1"
+    },
+    {
+        "match": 28,
+        "team": "240 TEMPEST",
+        "alliance": "B2"
+    },
+    {
+        "match": 28,
+        "team": "8519 Iron Eagles",
+        "alliance": "B3"
+    },
+    {
+        "match": 29,
+        "team": "94 The  TechnoJays",
+        "alliance": "R1"
+    },
+    {
+        "match": 29,
+        "team": "4405 The Atoms Family",
+        "alliance": "R2"
+    },
+    {
+        "match": 29,
+        "team": "4737 Atomigators",
+        "alliance": "R3"
+    },
+    {
+        "match": 29,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "B1"
+    },
+    {
+        "match": 29,
+        "team": "6150 Bluebotics",
+        "alliance": "B2"
+    },
+    {
+        "match": 29,
+        "team": "8832 AutoDawgs",
+        "alliance": "B3"
+    },
+    {
+        "match": 3,
+        "team": "240 TEMPEST",
+        "alliance": "R1"
+    },
+    {
+        "match": 3,
+        "team": "4405 The Atoms Family",
+        "alliance": "R2"
+    },
+    {
+        "match": 3,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "R3"
+    },
+    {
+        "match": 3,
+        "team": "7147 Rising Falcons",
+        "alliance": "B1"
+    },
+    {
+        "match": 3,
+        "team": "9735 Electric Dragons",
+        "alliance": "B2"
+    },
+    {
+        "match": 3,
+        "team": "6120 CyberStangs",
+        "alliance": "B3"
+    },
+    {
+        "match": 30,
+        "team": "1188 Ravens",
+        "alliance": "R1"
+    },
+    {
+        "match": 30,
+        "team": "9735 Electric Dragons",
+        "alliance": "R2"
+    },
+    {
+        "match": 30,
+        "team": "217 ThunderChickens",
+        "alliance": "R3"
+    },
+    {
+        "match": 30,
+        "team": "8899 Eagles",
+        "alliance": "B1"
+    },
+    {
+        "match": 30,
+        "team": "5531 Orange Crush",
+        "alliance": "B2"
+    },
+    {
+        "match": 30,
+        "team": "6615 Bellevillains",
+        "alliance": "B3"
+    },
+    {
+        "match": 31,
+        "team": "6057 Thunderbots",
+        "alliance": "R1"
+    },
+    {
+        "match": 31,
+        "team": "66 Grizzly Robotics",
+        "alliance": "R2"
+    },
+    {
+        "match": 31,
+        "team": "469 Las Guerrillas",
+        "alliance": "R3"
+    },
+    {
+        "match": 31,
+        "team": "9727 Warrior Robotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 31,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "B2"
+    },
+    {
+        "match": 31,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "B3"
+    },
+    {
+        "match": 32,
+        "team": "6101 Strange Quarks",
+        "alliance": "R1"
+    },
+    {
+        "match": 32,
+        "team": "830 The RatPack",
+        "alliance": "R2"
+    },
+    {
+        "match": 32,
+        "team": "6120 CyberStangs",
+        "alliance": "R3"
+    },
+    {
+        "match": 32,
+        "team": "7220 Steel Falcons",
+        "alliance": "B1"
+    },
+    {
+        "match": 32,
+        "team": "9775 Ravens",
+        "alliance": "B2"
+    },
+    {
+        "match": 32,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "B3"
+    },
+    {
+        "match": 33,
+        "team": "226 Hammerheads",
+        "alliance": "R1"
+    },
+    {
+        "match": 33,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "R2"
+    },
+    {
+        "match": 33,
+        "team": "4405 The Atoms Family",
+        "alliance": "R3"
+    },
+    {
+        "match": 33,
+        "team": "7147 Rising Falcons",
+        "alliance": "B1"
+    },
+    {
+        "match": 33,
+        "team": "8519 Iron Eagles",
+        "alliance": "B2"
+    },
+    {
+        "match": 33,
+        "team": "94 The  TechnoJays",
+        "alliance": "B3"
+    },
+    {
+        "match": 34,
+        "team": "240 TEMPEST",
+        "alliance": "R1"
+    },
+    {
+        "match": 34,
+        "team": "8832 AutoDawgs",
+        "alliance": "R2"
+    },
+    {
+        "match": 34,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "R3"
+    },
+    {
+        "match": 34,
+        "team": "1188 Ravens",
+        "alliance": "B1"
+    },
+    {
+        "match": 34,
+        "team": "6615 Bellevillains",
+        "alliance": "B2"
+    },
+    {
+        "match": 34,
+        "team": "4737 Atomigators",
+        "alliance": "B3"
+    },
+    {
+        "match": 35,
+        "team": "8179 Robo Falcons",
+        "alliance": "R1"
+    },
+    {
+        "match": 35,
+        "team": "7211 Hollywood",
+        "alliance": "R2"
+    },
+    {
+        "match": 35,
+        "team": "51 Wings of Fire",
+        "alliance": "R3"
+    },
+    {
+        "match": 35,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 35,
+        "team": "6057 Thunderbots",
+        "alliance": "B2"
+    },
+    {
+        "match": 35,
+        "team": "9735 Electric Dragons",
+        "alliance": "B3"
+    },
+    {
+        "match": 36,
+        "team": "217 ThunderChickens",
+        "alliance": "R1"
+    },
+    {
+        "match": 36,
+        "team": "8899 Eagles",
+        "alliance": "R2"
+    },
+    {
+        "match": 36,
+        "team": "66 Grizzly Robotics",
+        "alliance": "R3"
+    },
+    {
+        "match": 36,
+        "team": "6101 Strange Quarks",
+        "alliance": "B1"
+    },
+    {
+        "match": 36,
+        "team": "6150 Bluebotics",
+        "alliance": "B2"
+    },
+    {
+        "match": 36,
+        "team": "3707 TechnoDogs",
+        "alliance": "B3"
+    },
+    {
+        "match": 37,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "R1"
+    },
+    {
+        "match": 37,
+        "team": "830 The RatPack",
+        "alliance": "R2"
+    },
+    {
+        "match": 37,
+        "team": "1481 The Riveters",
+        "alliance": "R3"
+    },
+    {
+        "match": 37,
+        "team": "5531 Orange Crush",
+        "alliance": "B1"
+    },
+    {
+        "match": 37,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "B2"
+    },
+    {
+        "match": 37,
+        "team": "7598 SCA Constellations",
+        "alliance": "B3"
+    },
+    {
+        "match": 38,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "R1"
+    },
+    {
+        "match": 38,
+        "team": "6120 CyberStangs",
+        "alliance": "R2"
+    },
+    {
+        "match": 38,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "R3"
+    },
+    {
+        "match": 38,
+        "team": "469 Las Guerrillas",
+        "alliance": "B1"
+    },
+    {
+        "match": 38,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "B2"
+    },
+    {
+        "match": 38,
+        "team": "9727 Warrior Robotics",
+        "alliance": "B3"
+    },
+    {
+        "match": 39,
+        "team": "7147 Rising Falcons",
+        "alliance": "R1"
+    },
+    {
+        "match": 39,
+        "team": "9775 Ravens",
+        "alliance": "R2"
+    },
+    {
+        "match": 39,
+        "team": "226 Hammerheads",
+        "alliance": "R3"
+    },
+    {
+        "match": 39,
+        "team": "6538 Linc-Bots",
+        "alliance": "B1"
+    },
+    {
+        "match": 39,
+        "team": "1250 Gator-Bots",
+        "alliance": "B2"
+    },
+    {
+        "match": 39,
+        "team": "7220 Steel Falcons",
+        "alliance": "B3"
+    },
+    {
+        "match": 4,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "R1"
+    },
+    {
+        "match": 4,
+        "team": "66 Grizzly Robotics",
+        "alliance": "R2"
+    },
+    {
+        "match": 4,
+        "team": "1481 The Riveters",
+        "alliance": "R3"
+    },
+    {
+        "match": 4,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "B1"
+    },
+    {
+        "match": 4,
+        "team": "226 Hammerheads",
+        "alliance": "B2"
+    },
+    {
+        "match": 4,
+        "team": "94 The  TechnoJays",
+        "alliance": "B3"
+    },
+    {
+        "match": 40,
+        "team": "6057 Thunderbots",
+        "alliance": "R1"
+    },
+    {
+        "match": 40,
+        "team": "240 TEMPEST",
+        "alliance": "R2"
+    },
+    {
+        "match": 40,
+        "team": "94 The  TechnoJays",
+        "alliance": "R3"
+    },
+    {
+        "match": 40,
+        "team": "6101 Strange Quarks",
+        "alliance": "B1"
+    },
+    {
+        "match": 40,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "B2"
+    },
+    {
+        "match": 40,
+        "team": "66 Grizzly Robotics",
+        "alliance": "B3"
+    },
+    {
+        "match": 41,
+        "team": "8519 Iron Eagles",
+        "alliance": "R1"
+    },
+    {
+        "match": 41,
+        "team": "6615 Bellevillains",
+        "alliance": "R2"
+    },
+    {
+        "match": 41,
+        "team": "7211 Hollywood",
+        "alliance": "R3"
+    },
+    {
+        "match": 41,
+        "team": "4405 The Atoms Family",
+        "alliance": "B1"
+    },
+    {
+        "match": 41,
+        "team": "7598 SCA Constellations",
+        "alliance": "B2"
+    },
+    {
+        "match": 41,
+        "team": "830 The RatPack",
+        "alliance": "B3"
+    },
+    {
+        "match": 42,
+        "team": "8899 Eagles",
+        "alliance": "R1"
+    },
+    {
+        "match": 42,
+        "team": "6120 CyberStangs",
+        "alliance": "R2"
+    },
+    {
+        "match": 42,
+        "team": "469 Las Guerrillas",
+        "alliance": "R3"
+    },
+    {
+        "match": 42,
+        "team": "1481 The Riveters",
+        "alliance": "B1"
+    },
+    {
+        "match": 42,
+        "team": "51 Wings of Fire",
+        "alliance": "B2"
+    },
+    {
+        "match": 42,
+        "team": "1188 Ravens",
+        "alliance": "B3"
+    },
+    {
+        "match": 43,
+        "team": "226 Hammerheads",
+        "alliance": "R1"
+    },
+    {
+        "match": 43,
+        "team": "8179 Robo Falcons",
+        "alliance": "R2"
+    },
+    {
+        "match": 43,
+        "team": "6538 Linc-Bots",
+        "alliance": "R3"
+    },
+    {
+        "match": 43,
+        "team": "5531 Orange Crush",
+        "alliance": "B1"
+    },
+    {
+        "match": 43,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "B2"
+    },
+    {
+        "match": 43,
+        "team": "3707 TechnoDogs",
+        "alliance": "B3"
+    },
+    {
+        "match": 44,
+        "team": "9775 Ravens",
+        "alliance": "R1"
+    },
+    {
+        "match": 44,
+        "team": "8832 AutoDawgs",
+        "alliance": "R2"
+    },
+    {
+        "match": 44,
+        "team": "9735 Electric Dragons",
+        "alliance": "R3"
+    },
+    {
+        "match": 44,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 44,
+        "team": "1250 Gator-Bots",
+        "alliance": "B2"
+    },
+    {
+        "match": 44,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "B3"
+    },
+    {
+        "match": 45,
+        "team": "6150 Bluebotics",
+        "alliance": "R1"
+    },
+    {
+        "match": 45,
+        "team": "7147 Rising Falcons",
+        "alliance": "R2"
+    },
+    {
+        "match": 45,
+        "team": "7220 Steel Falcons",
+        "alliance": "R3"
+    },
+    {
+        "match": 45,
+        "team": "9727 Warrior Robotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 45,
+        "team": "217 ThunderChickens",
+        "alliance": "B2"
+    },
+    {
+        "match": 45,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "B3"
+    },
+    {
+        "match": 46,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "R1"
+    },
+    {
+        "match": 46,
+        "team": "4737 Atomigators",
+        "alliance": "R2"
+    },
+    {
+        "match": 46,
+        "team": "830 The RatPack",
+        "alliance": "R3"
+    },
+    {
+        "match": 46,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "B1"
+    },
+    {
+        "match": 46,
+        "team": "6057 Thunderbots",
+        "alliance": "B2"
+    },
+    {
+        "match": 46,
+        "team": "8899 Eagles",
+        "alliance": "B3"
+    },
+    {
+        "match": 47,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "R1"
+    },
+    {
+        "match": 47,
+        "team": "66 Grizzly Robotics",
+        "alliance": "R2"
+    },
+    {
+        "match": 47,
+        "team": "51 Wings of Fire",
+        "alliance": "R3"
+    },
+    {
+        "match": 47,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "B1"
+    },
+    {
+        "match": 47,
+        "team": "1188 Ravens",
+        "alliance": "B2"
+    },
+    {
+        "match": 47,
+        "team": "4405 The Atoms Family",
+        "alliance": "B3"
+    },
+    {
+        "match": 48,
+        "team": "226 Hammerheads",
+        "alliance": "R1"
+    },
+    {
+        "match": 48,
+        "team": "5531 Orange Crush",
+        "alliance": "R2"
+    },
+    {
+        "match": 48,
+        "team": "1250 Gator-Bots",
+        "alliance": "R3"
+    },
+    {
+        "match": 48,
+        "team": "7598 SCA Constellations",
+        "alliance": "B1"
+    },
+    {
+        "match": 48,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "B2"
+    },
+    {
+        "match": 48,
+        "team": "469 Las Guerrillas",
+        "alliance": "B3"
+    },
+    {
+        "match": 49,
+        "team": "6615 Bellevillains",
+        "alliance": "R1"
+    },
+    {
+        "match": 49,
+        "team": "1481 The Riveters",
+        "alliance": "R2"
+    },
+    {
+        "match": 49,
+        "team": "9727 Warrior Robotics",
+        "alliance": "R3"
+    },
+    {
+        "match": 49,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 49,
+        "team": "6538 Linc-Bots",
+        "alliance": "B2"
+    },
+    {
+        "match": 49,
+        "team": "9775 Ravens",
+        "alliance": "B3"
+    },
+    {
+        "match": 5,
+        "team": "7220 Steel Falcons",
+        "alliance": "R1"
+    },
+    {
+        "match": 5,
+        "team": "8519 Iron Eagles",
+        "alliance": "R2"
+    },
+    {
+        "match": 5,
+        "team": "5531 Orange Crush",
+        "alliance": "R3"
+    },
+    {
+        "match": 5,
+        "team": "1250 Gator-Bots",
+        "alliance": "B1"
+    },
+    {
+        "match": 5,
+        "team": "51 Wings of Fire",
+        "alliance": "B2"
+    },
+    {
+        "match": 5,
+        "team": "6150 Bluebotics",
+        "alliance": "B3"
+    },
+    {
+        "match": 50,
+        "team": "8832 AutoDawgs",
+        "alliance": "R1"
+    },
+    {
+        "match": 50,
+        "team": "3707 TechnoDogs",
+        "alliance": "R2"
+    },
+    {
+        "match": 50,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "R3"
+    },
+    {
+        "match": 50,
+        "team": "6150 Bluebotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 50,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "B2"
+    },
+    {
+        "match": 50,
+        "team": "240 TEMPEST",
+        "alliance": "B3"
+    },
+    {
+        "match": 51,
+        "team": "7147 Rising Falcons",
+        "alliance": "R1"
+    },
+    {
+        "match": 51,
+        "team": "4737 Atomigators",
+        "alliance": "R2"
+    },
+    {
+        "match": 51,
+        "team": "8179 Robo Falcons",
+        "alliance": "R3"
+    },
+    {
+        "match": 51,
+        "team": "6120 CyberStangs",
+        "alliance": "B1"
+    },
+    {
+        "match": 51,
+        "team": "94 The  TechnoJays",
+        "alliance": "B2"
+    },
+    {
+        "match": 51,
+        "team": "7211 Hollywood",
+        "alliance": "B3"
+    },
+    {
+        "match": 52,
+        "team": "217 ThunderChickens",
+        "alliance": "R1"
+    },
+    {
+        "match": 52,
+        "team": "6101 Strange Quarks",
+        "alliance": "R2"
+    },
+    {
+        "match": 52,
+        "team": "7220 Steel Falcons",
+        "alliance": "R3"
+    },
+    {
+        "match": 52,
+        "team": "8519 Iron Eagles",
+        "alliance": "B1"
+    },
+    {
+        "match": 52,
+        "team": "9735 Electric Dragons",
+        "alliance": "B2"
+    },
+    {
+        "match": 52,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "B3"
+    },
+    {
+        "match": 53,
+        "team": "7598 SCA Constellations",
+        "alliance": "R1"
+    },
+    {
+        "match": 53,
+        "team": "226 Hammerheads",
+        "alliance": "R2"
+    },
+    {
+        "match": 53,
+        "team": "8899 Eagles",
+        "alliance": "R3"
+    },
+    {
+        "match": 53,
+        "team": "4405 The Atoms Family",
+        "alliance": "B1"
+    },
+    {
+        "match": 53,
+        "team": "9727 Warrior Robotics",
+        "alliance": "B2"
+    },
+    {
+        "match": 53,
+        "team": "9775 Ravens",
+        "alliance": "B3"
+    },
+    {
+        "match": 54,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "R1"
+    },
+    {
+        "match": 54,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "R2"
+    },
+    {
+        "match": 54,
+        "team": "3707 TechnoDogs",
+        "alliance": "R3"
+    },
+    {
+        "match": 54,
+        "team": "830 The RatPack",
+        "alliance": "B1"
+    },
+    {
+        "match": 54,
+        "team": "6150 Bluebotics",
+        "alliance": "B2"
+    },
+    {
+        "match": 54,
+        "team": "1188 Ravens",
+        "alliance": "B3"
+    },
+    {
+        "match": 55,
+        "team": "1481 The Riveters",
+        "alliance": "R1"
+    },
+    {
+        "match": 55,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "R2"
+    },
+    {
+        "match": 55,
+        "team": "7147 Rising Falcons",
+        "alliance": "R3"
+    },
+    {
+        "match": 55,
+        "team": "5531 Orange Crush",
+        "alliance": "B1"
+    },
+    {
+        "match": 55,
+        "team": "7211 Hollywood",
+        "alliance": "B2"
+    },
+    {
+        "match": 55,
+        "team": "66 Grizzly Robotics",
+        "alliance": "B3"
+    },
+    {
+        "match": 56,
+        "team": "6615 Bellevillains",
+        "alliance": "R1"
+    },
+    {
+        "match": 56,
+        "team": "6101 Strange Quarks",
+        "alliance": "R2"
+    },
+    {
+        "match": 56,
+        "team": "9735 Electric Dragons",
+        "alliance": "R3"
+    },
+    {
+        "match": 56,
+        "team": "51 Wings of Fire",
+        "alliance": "B1"
+    },
+    {
+        "match": 56,
+        "team": "94 The  TechnoJays",
+        "alliance": "B2"
+    },
+    {
+        "match": 56,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "B3"
+    },
+    {
+        "match": 57,
+        "team": "1250 Gator-Bots",
+        "alliance": "R1"
+    },
+    {
+        "match": 57,
+        "team": "217 ThunderChickens",
+        "alliance": "R2"
+    },
+    {
+        "match": 57,
+        "team": "6057 Thunderbots",
+        "alliance": "R3"
+    },
+    {
+        "match": 57,
+        "team": "6120 CyberStangs",
+        "alliance": "B1"
+    },
+    {
+        "match": 57,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "B2"
+    },
+    {
+        "match": 57,
+        "team": "240 TEMPEST",
+        "alliance": "B3"
+    },
+    {
+        "match": 58,
+        "team": "469 Las Guerrillas",
+        "alliance": "R1"
+    },
+    {
+        "match": 58,
+        "team": "6538 Linc-Bots",
+        "alliance": "R2"
+    },
+    {
+        "match": 58,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "R3"
+    },
+    {
+        "match": 58,
+        "team": "8179 Robo Falcons",
+        "alliance": "B1"
+    },
+    {
+        "match": 58,
+        "team": "7220 Steel Falcons",
+        "alliance": "B2"
+    },
+    {
+        "match": 58,
+        "team": "8832 AutoDawgs",
+        "alliance": "B3"
+    },
+    {
+        "match": 59,
+        "team": "8519 Iron Eagles",
+        "alliance": "R1"
+    },
+    {
+        "match": 59,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "R2"
+    },
+    {
+        "match": 59,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "R3"
+    },
+    {
+        "match": 59,
+        "team": "4737 Atomigators",
+        "alliance": "B1"
+    },
+    {
+        "match": 59,
+        "team": "6150 Bluebotics",
+        "alliance": "B2"
+    },
+    {
+        "match": 59,
+        "team": "226 Hammerheads",
+        "alliance": "B3"
+    },
+    {
+        "match": 6,
+        "team": "6538 Linc-Bots",
+        "alliance": "R1"
+    },
+    {
+        "match": 6,
+        "team": "9727 Warrior Robotics",
+        "alliance": "R2"
+    },
+    {
+        "match": 6,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "R3"
+    },
+    {
+        "match": 6,
+        "team": "6057 Thunderbots",
+        "alliance": "B1"
+    },
+    {
+        "match": 6,
+        "team": "6615 Bellevillains",
+        "alliance": "B2"
+    },
+    {
+        "match": 6,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "B3"
+    },
+    {
+        "match": 60,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "R1"
+    },
+    {
+        "match": 60,
+        "team": "51 Wings of Fire",
+        "alliance": "R2"
+    },
+    {
+        "match": 60,
+        "team": "8899 Eagles",
+        "alliance": "R3"
+    },
+    {
+        "match": 60,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "B1"
+    },
+    {
+        "match": 60,
+        "team": "7147 Rising Falcons",
+        "alliance": "B2"
+    },
+    {
+        "match": 60,
+        "team": "7211 Hollywood",
+        "alliance": "B3"
+    },
+    {
+        "match": 61,
+        "team": "94 The  TechnoJays",
+        "alliance": "R1"
+    },
+    {
+        "match": 61,
+        "team": "830 The RatPack",
+        "alliance": "R2"
+    },
+    {
+        "match": 61,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "R3"
+    },
+    {
+        "match": 61,
+        "team": "66 Grizzly Robotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 61,
+        "team": "1188 Ravens",
+        "alliance": "B2"
+    },
+    {
+        "match": 61,
+        "team": "9775 Ravens",
+        "alliance": "B3"
+    },
+    {
+        "match": 62,
+        "team": "8832 AutoDawgs",
+        "alliance": "R1"
+    },
+    {
+        "match": 62,
+        "team": "4405 The Atoms Family",
+        "alliance": "R2"
+    },
+    {
+        "match": 62,
+        "team": "6057 Thunderbots",
+        "alliance": "R3"
+    },
+    {
+        "match": 62,
+        "team": "240 TEMPEST",
+        "alliance": "B1"
+    },
+    {
+        "match": 62,
+        "team": "7598 SCA Constellations",
+        "alliance": "B2"
+    },
+    {
+        "match": 62,
+        "team": "217 ThunderChickens",
+        "alliance": "B3"
+    },
+    {
+        "match": 63,
+        "team": "1250 Gator-Bots",
+        "alliance": "R1"
+    },
+    {
+        "match": 63,
+        "team": "9727 Warrior Robotics",
+        "alliance": "R2"
+    },
+    {
+        "match": 63,
+        "team": "8519 Iron Eagles",
+        "alliance": "R3"
+    },
+    {
+        "match": 63,
+        "team": "8179 Robo Falcons",
+        "alliance": "B1"
+    },
+    {
+        "match": 63,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "B2"
+    },
+    {
+        "match": 63,
+        "team": "6101 Strange Quarks",
+        "alliance": "B3"
+    },
+    {
+        "match": 64,
+        "team": "5531 Orange Crush",
+        "alliance": "R1"
+    },
+    {
+        "match": 64,
+        "team": "1481 The Riveters",
+        "alliance": "R2"
+    },
+    {
+        "match": 64,
+        "team": "9735 Electric Dragons",
+        "alliance": "R3"
+    },
+    {
+        "match": 64,
+        "team": "4737 Atomigators",
+        "alliance": "B1"
+    },
+    {
+        "match": 64,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "B2"
+    },
+    {
+        "match": 64,
+        "team": "6538 Linc-Bots",
+        "alliance": "B3"
+    },
+    {
+        "match": 65,
+        "team": "6615 Bellevillains",
+        "alliance": "R1"
+    },
+    {
+        "match": 65,
+        "team": "469 Las Guerrillas",
+        "alliance": "R2"
+    },
+    {
+        "match": 65,
+        "team": "3707 TechnoDogs",
+        "alliance": "R3"
+    },
+    {
+        "match": 65,
+        "team": "7220 Steel Falcons",
+        "alliance": "B1"
+    },
+    {
+        "match": 65,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "B2"
+    },
+    {
+        "match": 65,
+        "team": "6120 CyberStangs",
+        "alliance": "B3"
+    },
+    {
+        "match": 66,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "R1"
+    },
+    {
+        "match": 66,
+        "team": "7598 SCA Constellations",
+        "alliance": "R2"
+    },
+    {
+        "match": 66,
+        "team": "8832 AutoDawgs",
+        "alliance": "R3"
+    },
+    {
+        "match": 66,
+        "team": "66 Grizzly Robotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 66,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "B2"
+    },
+    {
+        "match": 66,
+        "team": "7147 Rising Falcons",
+        "alliance": "B3"
+    },
+    {
+        "match": 67,
+        "team": "1188 Ravens",
+        "alliance": "R1"
+    },
+    {
+        "match": 67,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "R2"
+    },
+    {
+        "match": 67,
+        "team": "94 The  TechnoJays",
+        "alliance": "R3"
+    },
+    {
+        "match": 67,
+        "team": "8899 Eagles",
+        "alliance": "B1"
+    },
+    {
+        "match": 67,
+        "team": "240 TEMPEST",
+        "alliance": "B2"
+    },
+    {
+        "match": 67,
+        "team": "1250 Gator-Bots",
+        "alliance": "B3"
+    },
+    {
+        "match": 68,
+        "team": "6150 Bluebotics",
+        "alliance": "R1"
+    },
+    {
+        "match": 68,
+        "team": "9775 Ravens",
+        "alliance": "R2"
+    },
+    {
+        "match": 68,
+        "team": "8519 Iron Eagles",
+        "alliance": "R3"
+    },
+    {
+        "match": 68,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "B1"
+    },
+    {
+        "match": 68,
+        "team": "6057 Thunderbots",
+        "alliance": "B2"
+    },
+    {
+        "match": 68,
+        "team": "1481 The Riveters",
+        "alliance": "B3"
+    },
+    {
+        "match": 69,
+        "team": "4737 Atomigators",
+        "alliance": "R1"
+    },
+    {
+        "match": 69,
+        "team": "6101 Strange Quarks",
+        "alliance": "R2"
+    },
+    {
+        "match": 69,
+        "team": "5531 Orange Crush",
+        "alliance": "R3"
+    },
+    {
+        "match": 69,
+        "team": "6615 Bellevillains",
+        "alliance": "B1"
+    },
+    {
+        "match": 69,
+        "team": "8179 Robo Falcons",
+        "alliance": "B2"
+    },
+    {
+        "match": 69,
+        "team": "4405 The Atoms Family",
+        "alliance": "B3"
+    },
+    {
+        "match": 7,
+        "team": "6101 Strange Quarks",
+        "alliance": "R1"
+    },
+    {
+        "match": 7,
+        "team": "8832 AutoDawgs",
+        "alliance": "R2"
+    },
+    {
+        "match": 7,
+        "team": "7147 Rising Falcons",
+        "alliance": "R3"
+    },
+    {
+        "match": 7,
+        "team": "3707 TechnoDogs",
+        "alliance": "B1"
+    },
+    {
+        "match": 7,
+        "team": "8899 Eagles",
+        "alliance": "B2"
+    },
+    {
+        "match": 7,
+        "team": "830 The RatPack",
+        "alliance": "B3"
+    },
+    {
+        "match": 70,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "R1"
+    },
+    {
+        "match": 70,
+        "team": "6538 Linc-Bots",
+        "alliance": "R2"
+    },
+    {
+        "match": 70,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "R3"
+    },
+    {
+        "match": 70,
+        "team": "7220 Steel Falcons",
+        "alliance": "B1"
+    },
+    {
+        "match": 70,
+        "team": "3707 TechnoDogs",
+        "alliance": "B2"
+    },
+    {
+        "match": 70,
+        "team": "7211 Hollywood",
+        "alliance": "B3"
+    },
+    {
+        "match": 71,
+        "team": "830 The RatPack",
+        "alliance": "R1"
+    },
+    {
+        "match": 71,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "R2"
+    },
+    {
+        "match": 71,
+        "team": "226 Hammerheads",
+        "alliance": "R3"
+    },
+    {
+        "match": 71,
+        "team": "6120 CyberStangs",
+        "alliance": "B1"
+    },
+    {
+        "match": 71,
+        "team": "217 ThunderChickens",
+        "alliance": "B2"
+    },
+    {
+        "match": 71,
+        "team": "51 Wings of Fire",
+        "alliance": "B3"
+    },
+    {
+        "match": 72,
+        "team": "469 Las Guerrillas",
+        "alliance": "R1"
+    },
+    {
+        "match": 72,
+        "team": "9735 Electric Dragons",
+        "alliance": "R2"
+    },
+    {
+        "match": 72,
+        "team": "1250 Gator-Bots",
+        "alliance": "R3"
+    },
+    {
+        "match": 72,
+        "team": "9727 Warrior Robotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 72,
+        "team": "7598 SCA Constellations",
+        "alliance": "B2"
+    },
+    {
+        "match": 72,
+        "team": "7147 Rising Falcons",
+        "alliance": "B3"
+    },
+    {
+        "match": 73,
+        "team": "8373 The Flying Octopi: 8373 R.R.T.",
+        "alliance": "R1"
+    },
+    {
+        "match": 73,
+        "team": "6615 Bellevillains",
+        "alliance": "R2"
+    },
+    {
+        "match": 73,
+        "team": "240 TEMPEST",
+        "alliance": "R3"
+    },
+    {
+        "match": 73,
+        "team": "66 Grizzly Robotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 73,
+        "team": "8519 Iron Eagles",
+        "alliance": "B2"
+    },
+    {
+        "match": 73,
+        "team": "8179 Robo Falcons",
+        "alliance": "B3"
+    },
+    {
+        "match": 74,
+        "team": "9775 Ravens",
+        "alliance": "R1"
+    },
+    {
+        "match": 74,
+        "team": "7211 Hollywood",
+        "alliance": "R2"
+    },
+    {
+        "match": 74,
+        "team": "8899 Eagles",
+        "alliance": "R3"
+    },
+    {
+        "match": 74,
+        "team": "6150 Bluebotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 74,
+        "team": "5531 Orange Crush",
+        "alliance": "B2"
+    },
+    {
+        "match": 74,
+        "team": "6570 Whiteford Bobcats",
+        "alliance": "B3"
+    },
+    {
+        "match": 75,
+        "team": "6057 Thunderbots",
+        "alliance": "R1"
+    },
+    {
+        "match": 75,
+        "team": "9211 ACCE Underdogs",
+        "alliance": "R2"
+    },
+    {
+        "match": 75,
+        "team": "4737 Atomigators",
+        "alliance": "R3"
+    },
+    {
+        "match": 75,
+        "team": "1188 Ravens",
+        "alliance": "B1"
+    },
+    {
+        "match": 75,
+        "team": "226 Hammerheads",
+        "alliance": "B2"
+    },
+    {
+        "match": 75,
+        "team": "6101 Strange Quarks",
+        "alliance": "B3"
+    },
+    {
+        "match": 76,
+        "team": "3707 TechnoDogs",
+        "alliance": "R1"
+    },
+    {
+        "match": 76,
+        "team": "6120 CyberStangs",
+        "alliance": "R2"
+    },
+    {
+        "match": 76,
+        "team": "9727 Warrior Robotics",
+        "alliance": "R3"
+    },
+    {
+        "match": 76,
+        "team": "8895 Redwolves Robotics",
+        "alliance": "B1"
+    },
+    {
+        "match": 76,
+        "team": "8832 AutoDawgs",
+        "alliance": "B2"
+    },
+    {
+        "match": 76,
+        "team": "217 ThunderChickens",
+        "alliance": "B3"
+    },
+    {
+        "match": 77,
+        "team": "1528 MTR (Monroe Trojan Robotics)",
+        "alliance": "R1"
+    },
+    {
+        "match": 77,
+        "team": "51 Wings of Fire",
+        "alliance": "R2"
+    },
+    {
+        "match": 77,
+        "team": "7220 Steel Falcons",
+        "alliance": "R3"
+    },
+    {
+        "match": 77,
+        "team": "94 The  TechnoJays",
+        "alliance": "B1"
+    },
+    {
+        "match": 77,
+        "team": "1481 The Riveters",
+        "alliance": "B2"
+    },
+    {
+        "match": 77,
+        "team": "4395 Dundee Vi-Borgs",
+        "alliance": "B3"
+    },
+    {
+        "match": 78,
+        "team": "469 Las Guerrillas",
+        "alliance": "R1"
+    },
+    {
+        "match": 78,
+        "team": "830 The RatPack",
+        "alliance": "R2"
+    },
+    {
+        "match": 78,
+        "team": "3656 Dexter Dreadbots",
+        "alliance": "R3"
+    },
+    {
+        "match": 78,
+        "team": "9735 Electric Dragons",
+        "alliance": "B1"
+    },
+    {
+        "match": 78,
+        "team": "4405 The Atoms Family",
+        "alliance": "B2"
+    },
+    {
+        "match": 78,
+        "team": "6538 Linc-Bots",
+        "alliance": "B3"
+    },
+    {
+        "match": 8,
+        "team": "7211 Hollywood",
+        "alliance": "R1"
+    },
+    {
+        "match": 8,
+        "team": "240 TEMPEST",
+        "alliance": "R2"
+    },
+    {
+        "match": 8,
+        "team": "1188 Ravens",
+        "alliance": "R3"
+    },
+    {
+        "match": 8,
+        "team": "217 ThunderChickens",
+        "alliance": "B1"
+    },
+    {
+        "match": 8,
+        "team": "469 Las Guerrillas",
+        "alliance": "B2"
+    },
+    {
+        "match": 8,
+        "team": "226 Hammerheads",
+        "alliance": "B3"
+    },
+    {
+        "match": 9,
+        "team": "66 Grizzly Robotics",
+        "alliance": "R1"
+    },
+    {
+        "match": 9,
+        "team": "1250 Gator-Bots",
+        "alliance": "R2"
+    },
+    {
+        "match": 9,
+        "team": "4405 The Atoms Family",
+        "alliance": "R3"
+    },
+    {
+        "match": 9,
+        "team": "1481 The Riveters",
+        "alliance": "B1"
+    },
+    {
+        "match": 9,
+        "team": "4737 Atomigators",
+        "alliance": "B2"
+    },
+    {
+        "match": 9,
+        "team": "9775 Ravens",
+        "alliance": "B3"
+    }
+]
