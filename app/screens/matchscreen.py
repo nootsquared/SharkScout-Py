@@ -66,7 +66,29 @@ class MatchScreen(Screen):
     def decrement4(self):
         if self.teleop_amp > 0:
             self.teleop_amp -= 1
-    
+
+    def submit(self, qual_number):
+        with open('tba.json') as f:
+            data = json.load(f)
+
+        # Create a dictionary to store the team names for each alliance
+        alliances = {"R1": "", "R2": "", "R3": "", "B1": "", "B2": "", "B3": ""}
+
+        for entry in data:
+            if entry['match'] == int(qual_number):  # Convert qual_number to int for comparison
+                alliances[entry['alliance']] = entry['team']
+
+        self.root.ids.r1_label.text = f"R1: {alliances['R1']}"
+
+        # Update the segments of the MDSegmentedButton with the team names
+        self.root.ids.segmented_button.segments = [
+            f"R1: {alliances['R1']}",
+            f"R2: {alliances['R2']}",
+            f"R3: {alliances['R3']}",
+            f"B1: {alliances['B1']}",
+            f"B2: {alliances['B2']}",
+            f"B3: {alliances['B3']}",
+        ]
 
     def __init__(self, **kwargs):
         super(MatchScreen, self).__init__(**kwargs)
